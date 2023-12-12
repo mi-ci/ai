@@ -5,4 +5,23 @@
     <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="javaBasic3.Student"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="javaBasic3.ch06.sec10.example.Calculator1"/>
+    <fullyQualifiedTypeName name="javaBasic3.ch06.sec10.example.Calculator"/>
+    <fullyQualifiedTypeName name="javaBasic3.ch06.sec04.AA"/>
+    <fullyQualifiedTypeName name="javaBasic3.ch06.sec06.sec05.Singleton"/>
+    <fullyQualifiedTypeName name="javaBasic3.ch06.sec06.sec06.메소드"/>
+    <fullyQualifiedTypeName name="javaBasic3.ch06.sec07.MemberService"/>
+    <fullyQualifiedTypeName name="javaBasic3.ch06.sec07.ShopService"/>
+    <fullyQualifiedTypeName name="javaBasic3.ch06.sec06.sec09.SportCar"/>
+    <fullyQualifiedTypeName name="javaBasic3.ch06.sec10.Car"/>
+    <fullyQualifiedTypeName name="javaBasic3.ch06.sec11.Calculator"/>
+    <fullyQualifiedTypeName name="javaBasic3.ch06.sec12.Computer"/>
+    <fullyQualifiedTypeName name="javaBasic3.ch06.sec12.BankApplication"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec03.Calculator"/>
+    <fullyQualifiedTypeName name="java.lang.AbstractMethodError"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec04.Airplane"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec04.SupersonicAirplane"/>
+    <fullyQualifiedTypeName name="java.lang.Package"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec05.Child"/>
 </qualifiedTypeNameHistroy>
