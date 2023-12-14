@@ -25,4 +25,18 @@
     <fullyQualifiedTypeName name="java.lang.Package"/>
     <fullyQualifiedTypeName name="javaBasic4.ch07.sec05.Child"/>
     <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec07.Person"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec07.A"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec12.Promotion4EX"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec13.HankookTire"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec14.Vehicle"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec15.SmartPhone"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec15.Phone"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec15.MainActivity"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec15.MainMainActivity"/>
+    <fullyQualifiedTypeName name="javaBasic5.ch08.sec02.Television"/>
+    <fullyQualifiedTypeName name="javaBasic5.ch08.sec02.SmartPhone"/>
+    <fullyQualifiedTypeName name="javaBasic5.ch08.sec02.RemoteControl"/>
+    <fullyQualifiedTypeName name="javaBasic5.ch08.sec03.Vehicle"/>
+    <fullyQualifiedTypeName name="javaBasic5.ch08.sec03.CarRun"/>
 </qualifiedTypeNameHistroy>
