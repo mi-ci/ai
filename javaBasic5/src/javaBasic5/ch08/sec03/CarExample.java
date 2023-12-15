@@ -7,6 +7,8 @@ public class CarExample {
 		c.drive(new Bus());
 		c.drive(new Taxi());
 		c.drive(new Train());
+		Taxi2 t = new Taxi2();
+		t.run();
 	}
 
 }
