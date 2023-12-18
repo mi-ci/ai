@@ -39,4 +39,17 @@
     <fullyQualifiedTypeName name="javaBasic5.ch08.sec02.RemoteControl"/>
     <fullyQualifiedTypeName name="javaBasic5.ch08.sec03.Vehicle"/>
     <fullyQualifiedTypeName name="javaBasic5.ch08.sec03.CarRun"/>
+    <fullyQualifiedTypeName name="javaBasic6.ch09.sec01.A.B"/>
+    <fullyQualifiedTypeName name="javaBasic6.ch09.sec02.AA.BB"/>
+    <fullyQualifiedTypeName name="javaBasic6.ch09.sec02.AA"/>
+    <fullyQualifiedTypeName name="javaBasic6.ch09.sec03.LocalExample"/>
+    <fullyQualifiedTypeName name="javaBasic6.ch09.sec04.Outter"/>
+    <fullyQualifiedTypeName name="javaBasic6.ch09.sec04.A.B"/>
+    <fullyQualifiedTypeName name="javaBasic6.ch09.sec05.CImpl"/>
+    <fullyQualifiedTypeName name="javaBasic6.ch09.sec06.RemoteControl"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
 </qualifiedTypeNameHistroy>
