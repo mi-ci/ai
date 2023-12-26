@@ -28,6 +28,7 @@ year_sale = {"2016":237, "2017":98, "2018":158, "2019":233, "2020":120, }
 for key in year_sale :
     if key == "2017" :
         print(year_sale[key])
+print(year_sale.keys()[0])
 
 #6-2
 sm = 0
@@ -42,4 +43,4 @@ for key in year_sale :
     sm = sm + year_sale[key]
 print(f"{sm} {int(sm/(len(year_sale)))}")
 
-#6-40
+#6-4

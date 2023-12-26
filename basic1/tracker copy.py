@@ -12,12 +12,12 @@ Wins = []
 Losses = []
 Ratio = []
 
-url='https://tracker.gg/tft/profile/riot/KR/%ED%95%B4%EC%84%A4%EC%99%95%EB%B4%89%EB%8B%AC%EC%9D%B4%23KR1/overview'
+url='https://lolchess.gg/profile/kr/%ED%95%B4%EC%84%A4%EC%99%95%EB%B4%89%EB%8B%AC%EC%9D%B4-KR1/set10'
 hdr = {'Accept-Language': 'ko_KR,en;q=0.8', 'User-Agent': ('Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Mobile Safari/537.36')}
 req = requests.get(url, headers=hdr)
 html = req.text
 soup = BeautifulSoup(html, 'html.parser')
-# print(soup)
+print(soup)
 
 # 소환사 이름 크롤링
 # for i in soup.select('meta'):
@@ -25,16 +25,16 @@ soup = BeautifulSoup(html, 'html.parser')
 # print(SummonerName)
 
 # 랭킹 크롤링
-for i in soup.select("div[class=win-loss-graph]"):
-    Ranking = i.text
-print(Ranking)
-a = 0
-if Ranking[a] == "3" and Ranking[a+1] == "3" :
-    print("굿 모든게 정상")
-    a = a+1
-if Ranking[a] == "3" and Ranking[a+1] == "3" :
-    print("뒤로 한칸 밀림")
-    a = a+1
+# for i in soup.select("div[class=win-loss-graph]"):
+#     Ranking = i.text
+# print(Ranking)
+# a = 0
+# if Ranking[a] == "3" and Ranking[a+1] == "3" :
+#     print("굿 모든게 정상")
+#     a = a+1
+# if Ranking[a] == "3" and Ranking[a+1] == "3" :
+#     print("뒤로 한칸 밀림")
+#     a = a+1
 
 # # 언랭 판별용 티어 크롤링
 # TierUnranked = soup.select('div.Cell')
