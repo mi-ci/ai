@@ -11,7 +11,7 @@ class InternetSpeedTwitterBot:
         # user_agent = 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Mobile Safari/537.36'
         # options.add_argument(f"user-agent = {user_agent}")
         # options.add_argument("--disable-web-security") 
-        options.add_argument("headless")
+        # options.add_argument("headless")
         options.page_load_strategy = 'none'
         self.driver = webdriver.Chrome(options=options)
         self.wait = WebDriverWait(self.driver, 30)
