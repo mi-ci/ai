@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.awt.Color"/>
-    <fullyQualifiedTypeName name="javaBasic4.ch07.sec07.Person"/>
-    <fullyQualifiedTypeName name="javaBasic4.ch07.sec07.A"/>
-    <fullyQualifiedTypeName name="javaBasic4.ch07.sec12.Promotion4EX"/>
-    <fullyQualifiedTypeName name="javaBasic4.ch07.sec13.HankookTire"/>
-    <fullyQualifiedTypeName name="javaBasic4.ch07.sec14.Vehicle"/>
-    <fullyQualifiedTypeName name="javaBasic4.ch07.sec15.SmartPhone"/>
-    <fullyQualifiedTypeName name="javaBasic4.ch07.sec15.Phone"/>
-    <fullyQualifiedTypeName name="javaBasic4.ch07.sec15.MainActivity"/>
     <fullyQualifiedTypeName name="javaBasic4.ch07.sec15.MainMainActivity"/>
     <fullyQualifiedTypeName name="javaBasic5.ch08.sec02.Television"/>
     <fullyQualifiedTypeName name="javaBasic5.ch08.sec02.SmartPhone"/>
@@ -54,10 +45,19 @@
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="javaApp2.Board"/>
-    <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
+    <fullyQualifiedTypeName name="javaApp1.ch12.sec05.PropertiesEx"/>
+    <fullyQualifiedTypeName name="java.lang.Iterable"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.NavigableMap"/>
+    <fullyQualifiedTypeName name="java.util.NavigableSet"/>
+    <fullyQualifiedTypeName name="java.util.SortedSet"/>
+    <fullyQualifiedTypeName name="javaApp1.ch12.sec07.Person"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.TreeSet"/>
 </qualifiedTypeNameHistroy>
