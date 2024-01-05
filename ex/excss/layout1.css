@@ -1,0 +1,74 @@
+* {
+  font-family: "Gamja Flower", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #aaef78;
+}
+
+#wrap {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#header {
+  width: 1200px;
+  height: 100px;
+  background-color: #5fcc41;
+}
+
+#nav {
+  width: 1200px;
+  height: 100px;
+  background-color: aqua;
+}
+
+#aside {
+  width: 400px;
+  height: 800px;
+  background-color: #0ca960;
+  float: left;
+}
+
+#section {
+  width: 800px;
+  height: 800px;
+  background-color: #12767d;
+  float: left;
+}
+
+#footer {
+  clear: both;
+  width: 1200px;
+  height: 80px;
+  background-color: #9d7de6;
+}
+
+h1 {
+  color: wheat;
+}
+
+/* 미디어 쿼리 */
+@media (max-width: 1300px) {
+  #wrap {
+    width: 96%; /* 좌우간 2% 여백을 위해 96%로 설정함 */
+  }
+}
+@media (max-width: 768px) {
+  #wrap {
+    width: 100%; /* 여백 제거 */
+  }
+}
+@media (max-width: 480px) {
+  #aside {
+    width: 100%;
+    height: 300px;
+  }
+  #section {
+    width: 100%;
+    height: 480px;
+  }
+}

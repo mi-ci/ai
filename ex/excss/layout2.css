@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  text-align: center;
+  color: #eeeeee;
+}
+
+#wrap {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #eeeeee;
+}
+
+#header {
+  width: 400px;
+  background-color: gold;
+}
+
+#nav1 {
+  width: 200px;
+  background-color: blue;
+  float: left;
+}
+
+#nav2 {
+  width: 200px;
+  background-color: blueviolet;
+  float: left;
+}
+
+#aside1 {
+  clear: both;
+  float: left;
+  width: 100px;
+  height: 200px;
+  line-height: 200px;
+  background-color: cadetblue;
+}
+
+#section {
+  width: 200px;
+  height: 200px;
+  float: left;
+  line-height: 200px;
+  background-color: chocolate;
+}
+#aside2 {
+  float: left;
+  width: 100px;
+  height: 200px;
+  line-height: 200px;
+  background-color: darkslategray;
+}
+
+#footer {
+  clear: both;
+  height: 50px;
+  line-height: 50px;
+  background-color: tomato;
+}
+
+/* 미디어 쿼리 */
+@media (max-width: 1300px) {
+  #wrap {
+    width: 96%; /* 좌우간 2% 여백을 위해 96%로 설정함 */
+  }
+}
+@media (max-width: 768px) {
+  #wrap {
+    width: 100%; /* 여백 제거 */
+  }
+}
+@media (max-width: 480px) {
+  #aside {
+    width: 100%;
+    height: 300px;
+  }
+  #section {
+    width: 100%;
+    height: 480px;
+  }
+}
