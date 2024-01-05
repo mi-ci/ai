@@ -1,0 +1,61 @@
+* {
+    font-family: 'Single Day', cursive;
+}
+
+html {
+    background-size: cover;
+    
+}
+
+body {
+    margin: 0;
+    /* height: 5000px; */
+}
+
+#header {
+    z-index: 1;
+    margin: 0 auto;
+    background-color: #eeeeee;
+    height : 40px;
+    width: 100%;
+    box-shadow: 0, 0.6px, rgb(155,155,155);
+    position: fixed;
+    top: -1px;
+}
+
+.mainBar {
+    margin: 0 auto;
+    width: 1200px;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+.leftMainBar div {
+    float:  left;
+    padding : 9px 10px;
+}
+
+.leftMainBar div a {
+    text-decoration: none;
+    font-size: medium;
+    color: pink;
+}
+
+.leftMainBar div a:hover{
+    opacity: 50%;
+}
+
+.rightMainBar div{
+    float: right;
+    padding : 9px 10px;
+}
+
+.rightMainBar div a {
+    text-decoration: none;
+    font-size: medium;
+    color: pink;
+}
+
+.rightMainBar div a:hover{
+    opacity: 50%;
+}
