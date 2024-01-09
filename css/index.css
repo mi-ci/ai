@@ -1,61 +1,157 @@
 * {
-    font-family: 'Single Day', cursive;
+  font-family: "Single Day", cursive;
 }
 
 html {
-    background-size: cover;
-    
+  background-size: cover;
 }
 
 body {
-    margin: 0;
-    /* height: 5000px; */
+  margin: 0;
+  /* height: 5000px; */
 }
 
 #header {
-    z-index: 1;
-    margin: 0 auto;
-    background-color: #eeeeee;
-    height : 40px;
-    width: 100%;
-    box-shadow: 0, 0.6px, rgb(155,155,155);
-    position: fixed;
-    top: -1px;
+  z-index: 1;
+  margin: 0 auto;
+  background-color: #eeeeee;
+  height: 60px;
+  width: 100%;
+  box-shadow: 0, 0.6px, rgb(155, 155, 155);
+  position: fixed;
+  top: -1px;
+  border-bottom: 5px solid snow;
 }
 
 .mainBar {
-    margin: 0 auto;
-    width: 1200px;
-    height: 100%;
-    /* background-color: aqua; */
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
 }
 
 .leftMainBar div {
-    float:  left;
-    padding : 9px 10px;
+  float: left;
+  padding: 9px 10px;
 }
 
 .leftMainBar div a {
-    text-decoration: none;
-    font-size: medium;
-    color: pink;
+  text-decoration: none;
+  font-size: 30px;
+  color: pink;
+  font-weight: bold;
+  line-height: 45px;
 }
 
-.leftMainBar div a:hover{
-    opacity: 50%;
+.leftMainBar div a:hover {
+  opacity: 50%;
 }
 
-.rightMainBar div{
-    float: right;
-    padding : 9px 10px;
+.rightMainBar div {
+  float: right;
+  padding: 9px 10px;
 }
 
 .rightMainBar div a {
-    text-decoration: none;
-    font-size: medium;
-    color: pink;
+  text-decoration: none;
+  font-size: 30px;
+  color: pink;
+  font-weight: bold;
+  line-height: 45px;
 }
 
-.rightMainBar div a:hover{
-    opacity: 50%;
+.rightMainBar div a:hover {
+  opacity: 50%;
+}
+header {
+  position: relative;
+  border-top: 60px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+header h1 {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  padding: 0 0 0 26px;
+}
+
+header h1 a {
+  display: block;
+  width: 17vh;
+  height: 6vh;
+  background: url(../image/logo.png) no-repeat center;
+  background-size: cover;
+}
+
+/* .button {
+  width: 30px;
+  height: 30px;
+  background: url(../image/search.png) no-repeat center;
+  background-size: cover;
+}
+button {
+  width: 20px;
+  height: 20px;
+} */
+.hide {
+  overflow: hidden;
+  display: block;
+  position: absolute;
+  border: 0;
+  width: 1px;
+  height: 1px;
+}
+
+a {
+  text-decoration: none;
+}
+/* nav {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+li {
+  float: left;
+  list-style: none;
+  padding-right: 10px;
+} */
+
+header nav ul {
+  text-align: center;
+  font-size: 0px;
+}
+
+header nav ul li {
+  /* float: left; */
+  display: inline-block;
+}
+
+header nav ul li a {
+  display: block;
+  font-size: 40px;
+  padding: 5px 30px;
+  line-height: 100px;
+  color: #000;
+}
+
+header .util {
+  position: absolute;
+  right: 10px;
+  top: 25px;
+}
+
+header .util a {
+  position: relative;
+  top: 10px;
+  display: inline-block;
+  font-size: 30px;
+  color: steelblue;
+  padding-right: 5px;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  background: url(../image/search.png) no-repeat center;
+  background-size: cover;
+  border: 0;
 }
