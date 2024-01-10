@@ -95,6 +95,57 @@ delete from copy_buytbl where prodname = '운동화' order by price limit 1;
 insert into copy_buytbl values(13, 'BBK', '운동화', null, 30, 2); 
 update copy_buytbl set price = 77 where userid = 'bbk' and prodname = '운동화';
 
+use sqldb;
+drop table if exists testtbl4;
+select * from buytbl;
+create table if not exists testtbl4 select prodname, price from buytbl;
+select * from testtbl4;
+create table if not exists testtbl4 (
+	prodname varchar(40) not null,
+    price int not null
+);
+
+insert into testtbl4 select distinct prodname, price from buytbl;
+select * from testtbl4;
+insert into testtbl4 values('운동화', 40);
+select distinct prodname, price from testtbl4;
+delete from testtbl4 where price = 40;
+
+select * from testtbl4 order by price desc;
+update testtbl4 set price = 100 where prodname = '청바지';
+
+update testtbl4 set price = price * 0.9 where prodname = (select prodname from (select max(price) from testtbl4) as t);
+select prodname from testtbl4 order by price desc limit 1;
+select max(price) from testtbl4;
+
+update testtbl4 set price = price - 100 where price = (select max(price) from (select * from testtbl4)as t);
+
+-- create table tt select max(price) from buytbl;
+-- select * from tt;
+-- select prodname from tt;
+
+select prodname from tt;
+select * from testtbl4;
+select * from buytbl;
+select prodname from buytbl where price = (select min(price) from buytbl as min) group by prodname;
+
+drop table copy_buytbl;
+select * from copy_buytbl;
+create table copy_buytbl select * from buytbl;
+update copy_buytbl set num = num -1;
+
+select prodname, amount from copy_buytbl order by amount limit 1;
+delete from copy_buytbl where amount = exists(select amount from (select * from copy_buytbl order by amount limit 1) as t);
+
+
+
+
+
+
+
+
+
+
 
 
 
