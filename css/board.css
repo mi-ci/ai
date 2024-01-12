@@ -1,0 +1,53 @@
+* {
+  margin: 100px auto;
+}
+table {
+  width: 700px;
+  border-collapse: collapse;
+  border-top: 1.5px solid #444444;
+}
+th,
+td {
+  border-bottom: 1px solid #ccc;
+  height: 40px;
+}
+
+td:last-child {
+  color: #ccc;
+}
+
+td:nth-child(1) {
+  width: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+td:nth-child(2) {
+  width: 100px;
+  text-align: center;
+  font-size: 14px;
+}
+
+td:nth-child(3) {
+  width: 450px;
+  font-size: 11px;
+}
+
+td:nth-child(4) {
+  width: 100px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.arrow {
+  position: absolute;
+  top: 116px;
+  left: 420px;
+  width: 15px;
+  height: 15px;
+  background: url(../image/downward-arrow.png) no-repeat center;
+  /* background-color: grey;
+  background-blend-mode: multiply; */
+  background-size: cover;
+}

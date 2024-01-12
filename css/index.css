@@ -155,3 +155,67 @@ button {
   background-size: cover;
   border: 0;
 }
+.jan {
+  display: none;
+}
+table,
+thead,
+tbody,
+tfoot,
+th,
+td {
+  /* border: 1px solid #ccc; */
+  text-align: center;
+  /* vertical-align: bottom; */
+  /* padding: 1px; */
+}
+th,
+td {
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+table {
+  margin: 0px auto;
+  position: relative;
+  top: 50px;
+  width: 600px;
+  height: 300px;
+  border-collapse: collapse;
+}
+thead,
+tbody {
+  background: #abbaab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #abbaab
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #abbaab
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.c1 {
+  width: 100px;
+  height: 70px;
+}
+
+.c2 {
+  width: 300px;
+  height: 70px;
+}
+
+.c3 {
+  width: 150px;
+  height: 70px;
+}
+
+.c4 {
+  width: 50px;
+  height: 70px;
+}
+.blank {
+  height: 0px;
+}
