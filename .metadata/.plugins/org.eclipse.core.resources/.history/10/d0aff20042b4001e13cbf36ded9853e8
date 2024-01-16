@@ -1,0 +1,54 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>하하하하</title>
+</head>
+<body>
+	<h1>Hello JSP</h1>
+	<h2>Scripting Tag</h2>
+	<%! int count = 3;
+		String makeItLower(String data){
+			return data.toLowerCase();
+		}
+	%>
+	
+	<%
+		for(int i = 1; i <= count; i++){
+			out.println(i+"<br>");
+		}
+	%>
+	<%= makeItLower("Hi!")%>
+	
+	<%! int count1 = 0; %>
+	<% out.println(count1++); %>
+	<% String name = "홍길동";
+		out.println(name);
+	%>
+	<%= name %>
+	<%= count1 %>
+	<%!
+		int sum(int a, int b){
+			return a+b;
+		};
+	%>
+	<%
+		int aa = sum(10, 20);
+		out.println(aa + " " + "~~");	
+	%>
+	<%= aa %>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</body>
+</html>

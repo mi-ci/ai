@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\ai\study\jsp_study\.metadata\.plugins\org.eclipse.jdt.core
+3136247592.index
+1865797976.index
+3511309301.index
+259125314.index
