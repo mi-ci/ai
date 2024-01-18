@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>수강신청여부</h1>
+	<p> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;Y&nbsp; N
+	<form action="r4.jsp" method="get">
+	<p>국어 <input type="radio" name="1y"> <input type="radio" name="1n">
+	<p>영어 <input type="radio" name="2y"> <input type="radio" name="2n">
+	<p>수학 <input type="radio" name="3y"> <input type="radio" name="3n">
+	<input type="submit" value="submit">
+	</form>
+</body>
+</html>

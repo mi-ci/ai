@@ -1,0 +1,8 @@
+package jsp01;
+
+import java.io.Serializable;
+
+public class MemberBean implements Serializable{
+	int id = 20181004;
+	String name = "홍길동";
+}

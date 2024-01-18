@@ -1,0 +1,13 @@
+package dto;
+
+import java.io.Serializable;
+
+public class Product implements Serializable {
+	private String productId;
+	private String pname;
+	private Integer unitPrice;
+	private String description;
+	private String manufacturer;
+	private String category;
+	private long unitsInStock;
+}

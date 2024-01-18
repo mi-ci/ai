@@ -1,0 +1,5 @@
+package dao;
+
+public class ProductRepository {
+	private ArrayList<Product> listOfProducts = new ArrayList<Product>();
+}

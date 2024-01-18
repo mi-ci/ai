@@ -1,0 +1,7 @@
+package jsp01;
+
+import java.io.Serializable;
+
+public class MemberBean implements Serializable{
+
+}

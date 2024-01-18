@@ -1,3 +1,5 @@
+<%@page import="dto.Product"%>
+<%@page import="dao.ProductRepository"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ page import = "java.util.Date" %>
@@ -9,6 +11,8 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
+	<jsp:useBean id="p" class="dto.Product"></jsp:useBean>
+	<jsp:useBean id="pr" class="dao.ProductRepository"></jsp:useBean>
 	<%@ include file="menu.jsp" %>
 	<%! String greeting = "Welcome to Web Shopping Mall"; 
 		String tagline = "Welcome to Web Market~!";
@@ -24,6 +28,11 @@
 			<div class = "text-center">
 				<h3><%= tagline %></h3>			
 				<img src="images/giphy1.gif" alt="redsnail" class="img-thumbnail">
+			<%
+				new ProductRepository();
+				new Product();
+			%>
+			<%= p.getCategory() %>
 			<%
 				Date day = new Date();
 				String am_pm;

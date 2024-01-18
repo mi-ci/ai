@@ -1,0 +1,10 @@
+package jsp01;
+
+import java.io.Serializable;
+
+public class Board implements Serializable {
+	int bNo;
+	String bTitle;
+	String bContent;
+	String writer;
+}

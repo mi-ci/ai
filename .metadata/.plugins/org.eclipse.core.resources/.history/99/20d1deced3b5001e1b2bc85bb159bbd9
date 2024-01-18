@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+	<h1>취미</h1>
+	<form action="r3.jsp" method="get">
+	<p> 등산 <input type="checkbox" name= "1st">
+	<p> 잠자기 <input type="checkbox" name= "2st">
+	<p> 먹기 <input type="checkbox" name= "3rd">
+	<input type="submit" value ="submit">
+	</form>
+	
+<select class="form-select" size="3" aria-label="Size 3 select example">
+  <option selected>Open this select menu</option>
+  <option value="1">등산</option>
+  <option value="2">잠자기</option>
+  <option value="3">먹기</option>
+</select>
+
+	
+</body>
+</html>

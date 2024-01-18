@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3>날짜 함수 지원하는 자바 연결하기</h3><br>
+	<jsp:useBean id="d1" class="java.util.Date"></jsp:useBean>
+	<h3>수학 지원하는 자바 연결하기</h3><br>
+	<jsp:useBean id="m1" class="java.lang.Math"></jsp:useBean>
+	
+	<%
+		int a1 = m1.abs(-100);
+		int max1 = m1.max(10, 20);
+	%>
+	
+	<p> <%= a1 %>
+	<p> <%= max1 %>
+</body>
+</html>
