@@ -31,13 +31,13 @@
 			<div class="col-md-4">
 				<h3><%=p.getPname()%></h3>
 				<h3><%=p.getDescription()%></h3>
-				<h3><%=p.getUnitPrice()%></h3>		
+				<h3><%=p.getUnitPrice()%></h3>
+				<p><a href="product.jsp?id=<%=p.getProductId()%>" class="btn btn-secondary">상세정보 &raquo; </a>	
 			</div>
 			<%
 				}		
 			%>
 		</div>
-		<hr>
 	</div>
 	<jsp:include page="footer.jsp"></jsp:include>
 </body>

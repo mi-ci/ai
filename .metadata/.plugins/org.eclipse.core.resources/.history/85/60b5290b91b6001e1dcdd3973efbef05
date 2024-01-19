@@ -1,0 +1,44 @@
+<%@ page import="java.util.ArrayList" %>
+<%@ page import="dto.Product" %>
+
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<jsp:include page="menu.jsp"></jsp:include>	
+	<div class = "jumbotron">
+		<div class = "container">
+			<h1 class="display-3">상세 정보</h1>		
+		</div>
+	</div>
+	<jsp:useBean id="pr" class="dao.ProductRepository"></jsp:useBean>
+	<%
+		String id = request.getParameter("id");
+		Product p = pr.getProductById(id);
+		
+	%>
+	<div class="container">
+		<div class="text-center">
+			<img src="images/<%=p.getProductId() %>.jpg" alt="redsnail" class="img-thumbnail">
+		</div>
+		<h3>ProductId : <%=p.getProductId() %></h3>
+		<h3>pname : <%=p.getPname() %></h3>
+		<h3>unitPrice : <%=p.getUnitPrice() %></h3>
+		<h3>description : <%=p.getDescription() %></h3>
+		<h3>manufacturer : <%=p.getManufacturer() %></h3>
+		<h3>category : <%=p.getCategory() %></h3>
+		<h3>unitsInStock : <%=p.getUnitsInStock() %></h3>
+		<h3>condition : <%=p.getCondition() %></h3>
+		<p><a href="Products.jsp" class="btn btn-secondary">상품목록 &raquo;</a>
+	</div>
+	
+	
+	<jsp:include page="footer.jsp"></jsp:include>
+
+</body>
+</html>

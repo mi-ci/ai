@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<jsp:useBean id="s" class="jsp01.Student"></jsp:useBean>
+	<%
+		s.setName(request.getParameter("name"));
+		s.setPhone(request.getParameter("phone"));
+		s.setAge(request.getParameter("age"));
+	%>
+	<h2>학생 정보 조회</h2>
+	<h4>이름 :<%= s.getName() %></h4>
+	<h4>전화번호 : <%= s.getPhone() %></h4>
+	<h4>나이 : <%= s.getAge() %></h4>
+</body>
+</html>

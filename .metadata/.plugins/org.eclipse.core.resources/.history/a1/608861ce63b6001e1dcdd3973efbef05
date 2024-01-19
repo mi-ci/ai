@@ -1,0 +1,12 @@
+package jsp01;
+
+import java.io.Serializable;
+
+public class Login implements Serializable {
+	public Login() {
+	}
+	
+	
+	
+	
+}

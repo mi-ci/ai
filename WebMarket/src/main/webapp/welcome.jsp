@@ -28,11 +28,7 @@
 			<div class = "text-center">
 				<h3><%= tagline %></h3>			
 				<img src="images/giphy1.gif" alt="redsnail" class="img-thumbnail">
-			<%
-				new ProductRepository();
-				new Product();
-			%>
-			<%= p.getCategory() %>
+
 			<%
 				Date day = new Date();
 				String am_pm;

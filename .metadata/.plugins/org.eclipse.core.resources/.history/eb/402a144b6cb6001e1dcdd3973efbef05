@@ -1,0 +1,10 @@
+package jsp01;
+
+import java.io.Serializable;
+
+public class Student implements Serializable {
+	private String name;
+	private String phone;
+	private String age;
+	
+}

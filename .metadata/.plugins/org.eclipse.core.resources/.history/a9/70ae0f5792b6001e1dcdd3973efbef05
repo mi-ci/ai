@@ -1,0 +1,45 @@
+<%@ page import="dto.Product" %>
+
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<jsp:include page="menu.jsp"></jsp:include>	
+	<div class = "jumbotron">
+		<div class = "container">
+			<h1 class="display-3">상세 정보</h1>		
+		</div>
+	</div>
+	
+	<jsp:useBean id="pr" class="dao.ProductRepository"></jsp:useBean>
+	<%
+		String id = request.getParameter("id");
+		Product p = pr.getProductById(id);
+		
+	%>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h3>ProductId : <%=p.getProductId() %></h3>
+				<p>pname : <%=p.getPname() %></p>
+				<p>unitPrice : <%=p.getUnitPrice() %></p>
+				<p>description : <%=p.getDescription() %></p>
+				<p>manufacturer : <%=p.getManufacturer() %></p>
+				<p>category : <%=p.getCategory() %></p>
+				<p>unitsInStock : <%=p.getUnitsInStock() %></p>
+				<p>condition : <%=p.getCondition() %></p>
+			</div>
+		</div>
+	</div>
+	<p><a href="Products.jsp" class="btn btn-secondary">상품목록 &raquo;</a>
+	
+	
+	<jsp:include page="footer.jsp"></jsp:include>
+
+</body>
+</html>
