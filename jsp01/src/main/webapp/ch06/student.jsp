@@ -29,9 +29,7 @@
 		s.setPhone(request.getParameter("phone"));
 		s.setAge(request.getParameter("age"));
 	%>
-    <%
-    	ArrayList
-    %>
+
 
 	
 	<div class="title">

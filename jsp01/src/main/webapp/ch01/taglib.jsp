@@ -8,6 +8,5 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<c:out value="JSTL Core 태그 라이브러리" /	>
 </body>
 </html>

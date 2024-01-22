@@ -1,4 +1,5 @@
 <%@ page import="dto.Product" %>
+<%@ page import="dao.ProductRepository" %>
 
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -8,6 +9,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<link rel="stylesheet" href="./resources/css/bootstrap.min.css">
 </head>
 <body>
 	<jsp:include page="menu.jsp"></jsp:include>	
@@ -19,12 +21,16 @@
 	
 	<jsp:useBean id="pr" class="dao.ProductRepository"></jsp:useBean>
 	<%
+		ProductRepository dao = ProductRepository.getInstance();
 		String id = request.getParameter("id");
-		Product p = pr.getProductById(id);
+		Product p = dao.getProductById(id);
 		
 	%>
 	<div class="container">
 		<div class="row">
+			<div class="col-md-5">
+				<img src="c:/upload/<%=p.getFilename()%>" style="width:100%">
+			</div>
 			<div class="col-md-6">
 				<h3><%=p.getPname() %></h3>
 				<p><%=p.getDescription() %></p>

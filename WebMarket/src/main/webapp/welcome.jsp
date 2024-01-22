@@ -26,8 +26,10 @@
 	<main role = "main">
 		<div class = "container">
 			<div class = "text-center">
-				<h3><%= tagline %></h3>			
-				<img src="images/giphy1.gif" alt="redsnail" class="img-thumbnail">
+				<h3><%= tagline %></h3>
+				<a href="Products.jsp">
+					<img src="images/giphy1.gif" alt="redsnail" class="img-thumbnail">
+				</a>			
 
 			<%
 				Date day = new Date();

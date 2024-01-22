@@ -1,6 +1,5 @@
 <%@page import ="java.util.ArrayList" %>
 <%@page import ="dto.Product" %>
-
 <%@page import="dao.ProductRepository"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -20,7 +19,8 @@
 	</div>
 	<jsp:useBean id="pr" class="dao.ProductRepository"></jsp:useBean>
 	<%
-		ArrayList<Product> op = pr.getLop();
+		ProductRepository dao = ProductRepository.getInstance();
+		ArrayList<Product> op = dao.getLop();
 	%>
 	<div class="container">
 		<div class = "row" align="center">
@@ -29,6 +29,8 @@
 					Product p = op.get(i);
 			%>
 			<div class="col-md-4">
+				<img src="c://upload/P1235.png" style="width:100%">
+				<h3><%=p.getFilename()%></h3>
 				<h3><%=p.getPname()%></h3>
 				<h3><%=p.getDescription()%></h3>
 				<h3><%=p.getUnitPrice()%></h3>

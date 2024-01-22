@@ -22,8 +22,7 @@
 	
 	<div class="text-center">
 	<div class="container">
-		<form action="processAddProduct.jsp" name="newProduct" class="form-horizontal" method="post">
-		
+		<form action="processAddProduct.jsp" name="newProduct" enctype="multipart/form-data" class="form-horizontal" method="post">
 		<div class="form-group row">
 			<label class="col-sm-2 f1">상품코드</label>
 			<div class="col-sm-4 f1">
@@ -83,12 +82,19 @@
 		</div>
 		
 		<div class="form-group row">
+			<label class="col-sm-2 f1">이미지</label>
+			<div class="col-sm5">
+				<input type="file" name = "productImage" class="form-control">
+			</div>
+		</div>
+		
+		<div class="form-group row">
 			<div class="col-sm-offset col-sm-10 col text-center">
 				<input type="submit" class = "btn btn-primary" value="등록">				
 				<input type="reset" class = "btn btn-danger" value="다시 입력">				
 			</div>
 		</div>
-		
+			
 		
 		</form>
 		
