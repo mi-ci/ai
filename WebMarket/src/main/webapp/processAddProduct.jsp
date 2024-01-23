@@ -18,7 +18,7 @@
 		request.setCharacterEncoding("utf-8");
 	
 		String fileName = "";
-		String realFolder = "c:\\upload";
+		String realFolder = "C:\\ai\\study\\jsp_study\\WebMarket\\src\\main\\webapp\\images";
 		int maxSize = 5*1024*1024;
 		String encType = "utf-8";
 		MultipartRequest multi = new MultipartRequest(request, realFolder, maxSize, encType, new DefaultFileRenamePolicy());

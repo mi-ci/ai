@@ -29,7 +29,7 @@
 					Product p = op.get(i);
 			%>
 			<div class="col-md-4">
-				<img src="c://upload/P1235.png" style="width:100%">
+				<img src="${pageContext.request.contextPath}/images/<%= p.getFilename() %>" style="width:100%">
 				<h3><%=p.getFilename()%></h3>
 				<h3><%=p.getPname()%></h3>
 				<h3><%=p.getDescription()%></h3>

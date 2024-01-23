@@ -29,12 +29,12 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-5">
-				<img src="c:/upload/<%=p.getFilename()%>" style="width:100%">
+				<img src="${pageContext.request.contextPath}/images/<%= p.getFilename()%>" style="width:100%">
 			</div>
 			<div class="col-md-6">
 				<h3><%=p.getPname() %></h3>
 				<p><%=p.getDescription() %></p>
-				<p><b>상품코드 : </b><span class="badge badge-danger"> <%=p.getProductId() %></span></p>
+				<p><b>상품코드 : </b><a href="product.jsp?id=<%=p.getProductId() %>"> <span class="badge badge-danger"> <%=p.getProductId() %></span></a></p>
 				<p><b>제조사 : </b><span class="badge text-bg-info"><%=p.getManufacturer() %></span></p>
 				<p><b>분 류 : </b><%=p.getCategory() %></p>
 				<p><b>재고수 : </b><%=p.getUnitsInStock() %></p>

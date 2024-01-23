@@ -1,4 +1,6 @@
 INDEX VERSION 1.131
+C:\ai\study\jsp_study\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2760435626.index
+\jsp01\src\main\java
 C:\ai\study\jsp_study\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\876083771.index
 \jsp01\src\main\java
 C:\ai\study\jsp_study\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3713294094.index
@@ -17,3 +19,5 @@ C:\ai\study\jsp_study\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\8216
 \WebMarket\src\main\java
 C:\ai\study\jsp_study\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3661208343.index
 \jsp01\src\main\java
+C:\ai\study\jsp_study\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1086297126.index
+\oldplanet\src\main\java

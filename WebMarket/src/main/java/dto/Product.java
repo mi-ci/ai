@@ -12,7 +12,7 @@ public class Product implements Serializable {
 	private String description;
 	private String manufacturer;
 	private String category;
-	private long unitsInStock;
+	private Integer unitsInStock;
 	private String condition;
 	private String filename;
 	
@@ -94,7 +94,7 @@ public class Product implements Serializable {
 	}
 
 
-	public void setUnitsInStock(long unitsInStock) {
+	public void setUnitsInStock(Integer unitsInStock) {
 		this.unitsInStock = unitsInStock;
 	}
 
