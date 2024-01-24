@@ -16,6 +16,17 @@ color : white;
 .contain{
 margin-bottom:100px;
 }
+.little_margin_bottom{
+margin-bottom:50px;
+}
+a{
+text-decoration-line : none;
+}
+a:hover {
+color: #00ee00;
+text-shadow: 0 1px 2px #00ff00;
+}
+
 </style>
 </head>
 <body>
@@ -33,7 +44,7 @@ margin-bottom:100px;
 	</nav>
 	
 	<div class="text-center">
-	  	<div class="row">
+	  	<div class="row little_margin_bottom">
 	    	<div class="col">
 	      		
 	    	</div>
@@ -42,24 +53,44 @@ margin-bottom:100px;
 	    		<br>
 	      		<h3>몬스터</h3>
 	      		<hr>
+	    		<br>
+	    		<br>
 	      		<div class="row contain">
 		      		<div class="col">
+		      			<a href="level1_20.jsp">
 		      			<img src="images/bluesnail.jpg" style="width:20%">
-		      			<h4>레벨 1-10</h4>
+		      			<h4>레벨 1-20</h4>
+		      			</a>
 		      		</div>
 		      		<div class="col">
-		      			<img src="images/greenmushroom.jpg" style="width:20%">
-		      			<h4>레벨 11-20</h4>
+		      			<img src="images/wildboar.jpg" style="width:30%">
+		      			<h4>레벨 21-40</h4>
 		      		</div>
 		      		<div class="col">
-		      			<img src="images/woodenmask.jpg" style="width:20%">
-		      			<h4>레벨 21-30</h4>
+		      			<img src="images/wraith.jpg" style="width:25%">
+		      			<h4>레벨 41-60</h4>
+		      		</div>
+	      		</div>
+	      		<div class="row contain">
+		      		<div class="col">
+		      			<img src="images/tauro.jpg" style="width:30%">
+		      			<h4>레벨 61-80</h4>
+		      		</div>
+		      		<div class="col">
+		      			<img src="images/viking.jpg" style="width:20%">
+		      			<h4>레벨 81-100</h4>
+		      		</div>
+		      		<div class="col">
+		      			<img src="images/skele.jpg" style="width:20%">
+		      			<h4>레벨 101~</h4>
 		      		</div>
 	      		</div>
 	    		<br>
 	    		<br>
 	      		<h3>아이템</h3>
 	      		<hr>
+	    		<br>
+	    		<br>
 	      		<div class="row contain">
 		      		<div class="col">
 		      			<img src="images/ohs.jpg" style="width:20%">
@@ -78,6 +109,8 @@ margin-bottom:100px;
 	    		<br>
 	      		<h3>맵</h3>
 	      		<hr>
+	    		<br>
+	    		<br>
 	      		<div class="row contain">
 		      		<div class="col">
 		      			<h4>메이플 아일랜드</h4>
@@ -98,7 +131,7 @@ margin-bottom:100px;
   	
   	<hr>
 	<footer class = "container text-center">
-		<p>&copy; 2024 OLD PLANET </p>
+		<p>&copy; 2024 OLD PLANET</p>
 		<p>OLD PLANET은 NEXON KOREA와 관련 없습니다.</p>
 		<p>모든 정보와 이미지의 저작권은 NEXON KOREA에 있습니다.</p>
 		<p>OLD PLANET은 정보공유를 목적으로 만든 팬사이트입니다.</p>

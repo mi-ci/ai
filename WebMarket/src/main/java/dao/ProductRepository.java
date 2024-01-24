@@ -38,7 +38,7 @@ public class ProductRepository {
 		
 	}
 	
-	public ArrayList getLop(){
+	public ArrayList<Product> getLop(){
 		return listOfProducts;
 	}
 	
