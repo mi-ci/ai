@@ -84,7 +84,7 @@ margin-bottom:50px;
 		    <tr>
 		    <td colspan="4">출몰장소
 		    <ul>
-		    	<li>헤네시스</li>
+		    	<li><a href="map.jsp">헤네시스</a></li>
 		    </ul>
 		    </td>
 		    </tr>

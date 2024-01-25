@@ -1,9 +1,0 @@
-package jsp01;
-
-public class Board {
-	int bNo;
-	String bTitle;
-	String bContent;
-	String writer;
-	
-}
