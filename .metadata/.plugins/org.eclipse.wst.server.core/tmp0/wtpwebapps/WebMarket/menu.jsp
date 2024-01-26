@@ -11,10 +11,15 @@
 	<nav class ="navbar navbar-expand navbar-dark bg-dark"> 
 	 	<div class= "container">
 	 		<div class = "navbar-header">
-	 			<a class = "navbar-brand" href="welcome.jsp">Home</a>
-	 			<a class = "navbar-brand" href="Products.jsp">상품목록</a>
-	 			<a class = "navbar-brand" href="addProduct.jsp">상품등록</a>
-	 			<a class = "navbar-brand" href="deleteProject2.jsp">상품삭제</a>
+	 			<a class = "navbar-brand" href="/WebMarket/welcome.jsp">Home</a>
+	 			<a class = "navbar-brand" href="${pageContext.request.contextPath}/Products.jsp">상품목록</a>
+	 			<a class = "navbar-brand" href="${pageContext.request.contextPath}/addProduct.jsp">상품등록</a>
+	 			<a class = "navbar-brand" href="${pageContext.request.contextPath}/deleteProject2.jsp">상품삭제</a>
+	 			<a class = "navbar-brand" href="${pageContext.request.contextPath}/cart.jsp">장바구니</a>
+	 		</div>
+	 		<div class = "navbar-header">
+	 			<a class = "navbar-brand" href="${pageContext.request.contextPath}/member/memberInfo.jsp">회원정보</a>
+	 			<a class = "navbar-brand" href="${pageContext.request.contextPath}/member/login.jsp">로그인</a>
 	 		</div>
 		</div>
 	</nav>

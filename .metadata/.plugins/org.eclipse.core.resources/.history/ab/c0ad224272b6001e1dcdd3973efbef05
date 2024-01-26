@@ -1,5 +1,0 @@
-package jsp01;
-
-public class StudentRepository {
-	private ArrayList<Student> listOfStudents = new ArrayList<Student>;  
-}

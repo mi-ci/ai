@@ -1,8 +1,0 @@
-package jsp01;
-
-import java.util.ArrayList;
-
-public class StudentRepository {
-	private ArrayList<Student> listOfStudents = new ArrayList<Student>();
-	
-}

@@ -70,46 +70,46 @@
 			<div class="col-4" align="right">
 				<p><em>배송일 : <%=vShippingDate %></em>
 			</div>
-		<div>
-			<table class="table-hover text-center">
-				<tr>
-					<th class="text-center">상품명</th>
-					<th class="text">수량</th>
-					<th class="text">가격</th>
-					<th class="text">소계</th>
-				</tr>
-				<%	
-					int total = 0;
-					ArrayList<Product> cartlist = (ArrayList<Product>) session.getAttribute("cartlist");
-					if(cartlist==null){
-						response.sendRedirect("Products.jsp");
-					}
-					for(int i = 0; i<cartlist.size(); i++){
-						Product p = cartlist.get(i);
-						total = total + p.getQuantity()*p.getUnitPrice();
-				%>
-				<tr>
-					<td class="text-center"><%=p.getPname() %></td>
-					<td class="text-center"><%=p.getQuantity()%></td>
-					<td class="text-center"><%=p.getUnitPrice()%></td>
-					<td class="text-center"><%=p.getQuantity()*p.getUnitPrice()%></td>
-				</tr>
-				
-				<%
-					}
-				%>
-				<tr>
-					<td></td>
-					<td></td>
-					<th class="text-primary">총액</th>
-					<th class="text-danger"><%=total %></th>
-				</tr>
-			</table> 
 		</div>
+		<div class="row d-flex justify-content-center">
+		<table class="table-hover">
+			<tr>
+				<th class="text-center">상품명</th>
+				<th class="text">수량</th>
+				<th class="text">가격</th>
+				<th class="text">소계</th>
+			</tr>
+			<%	
+				int total = 0;
+				ArrayList<Product> cartlist = (ArrayList<Product>) session.getAttribute("cartlist");
+				if(cartlist.size()==0){
+					response.sendRedirect("Products.jsp");
+				}
+				for(int i = 0; i<cartlist.size(); i++){
+					Product p = cartlist.get(i);
+					total = total + p.getQuantity()*p.getUnitPrice();
+			%>
+			<tr>
+				<td class="text-center"><%=p.getPname() %></td>
+				<td class="text-center"><%=p.getQuantity()%></td>
+				<td class="text-center"><%=p.getUnitPrice()%></td>
+				<td class="text-center"><%=p.getQuantity()*p.getUnitPrice()%></td>
+			</tr>
+			
+			<%
+				}
+			%>
+			<tr>
+				<td></td>
+				<td></td>
+				<th class="text-primary">총액</th>
+				<th class="text-danger"><%=total %></th>
+			</tr>
+		</table> 
 		</div>
 		<div>
 			<a href="shippingInfo.jsp?cartId=<%=cartId%>" class="btn btn-info">배송정보</a>
-			<a href="thankYouConsumer.jsp" class="btn btn-success">주문완료</a>
+			<a href="thankYouConsumer.jsp?id=<%=vShippingDate %>" class="btn btn-success">주문완료</a>
 			<a href="checkOutCancelled.jsp" class="btn btn-danger">주문취소</a>
 		</div>
 	</div>
