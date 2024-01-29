@@ -31,17 +31,6 @@
 		pstmt.executeUpdate();
 		response.sendRedirect("/WebMarket/welcome.jsp");
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	%>
 </body>
 </html>

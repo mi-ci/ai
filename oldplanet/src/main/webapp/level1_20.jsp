@@ -53,7 +53,7 @@ text-shadow: 0 1px 2px #00ff00;
 	<br>
 	<div class="container" style="width:50%">
 	<ul>
-	<li><a href="mob.jsp">파란달팽이</a></li>
+	<li><a href="mob.jsp?name=파란달팽이">파란달팽이</a></li>
 	<li></li>
 	<li></li>
 	<li></li>

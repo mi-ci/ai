@@ -17,7 +17,7 @@
 	
 	<div class="container">
 
-		<form action="" name="login" class="form-horizontal" method="post">
+		<form action="processLogin.jsp" name="login" class="form-horizontal" method="post">
 		
 			<div class="form-group row">
 				<label class="col-sm-2 f1">아이디</label>
@@ -36,8 +36,7 @@
 			<div class="form-group row">
 				<div class="col-sm-offset col-sm-10 col text-center">
 					<input type="submit" class = "btn btn-primary" value="로그인">
-					<a href="join.jsp">회원가입</a>			
-					<input type="reset" class = "btn btn-danger" value="회원가입">				
+					<a href="join.jsp" class = "btn btn-danger">회원가입</a>			
 				</div>
 			</div>
 			

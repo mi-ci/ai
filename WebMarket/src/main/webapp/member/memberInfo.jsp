@@ -11,7 +11,7 @@
 <body>
 	<%
 		Class.forName("com.mysql.jdbc.Driver");
-		String url="jdbc:mysql://localhost:3306/webmarket?characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false";
+		String url="jdbc:mysql://localhost:3306/webmarket?characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true";
 		String user="root";
 		String password="1234";
 		Connection con = DriverManager.getConnection(url, user, password);
@@ -51,7 +51,7 @@
 					<td><%=rs.getString("pwd") %></td>
 					<td><%=rs.getString("name") %></td>
 					<td><%=rs.getString("email") %></td>
-					<td><a href="modify.jsp" class="btn btn-primary">수정</a></td>
+					<td><a href="modify.jsp?number=<%=rs.getInt("number") %>" class="btn btn-primary">수정</a></td>
 					<td><a href="delete.jsp?number=<%=rs.getInt("number") %>" class="btn btn-danger">삭제</a></td>
 				</tr>
 					<%

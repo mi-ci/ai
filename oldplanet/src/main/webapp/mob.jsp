@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ page import="java.sql.*" %>
+<%@ page import="java.net.*" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,6 +30,23 @@ margin-bottom:50px;
 </style>
 </head>
 <body>
+
+	<%
+	Class.forName("com.mysql.jdbc.Driver");
+	String url="jdbc:mysql://localhost:3306/oldplanet?characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true";
+	String user="root";
+	String password="1234";
+	Connection con = DriverManager.getConnection(url, user, password);
+	
+	String selectSql = "select * from mob_table where name=?";
+	PreparedStatement pstmt = con.prepareStatement(selectSql);
+	request.setCharacterEncoding("utf-8");
+	String name = request.getParameter("name");
+	pstmt.setString(1, name);
+	ResultSet rs = pstmt.executeQuery();
+	rs.next();
+	
+	%>
 	
 	<nav class ="navbar navbar-expand navbar-dark bg-dark"> 
 	 	<div class= "container">
@@ -47,7 +66,7 @@ margin-bottom:50px;
 		    <tr>
 		      <th scope="col" colspan="4">
 		      	<img src="images/bluesnail.jpg" style="width:20%">
-		      	<p>파란달팽이
+		      	<p><%=rs.getString("name") %>
 		      	<p>레벨:1
 		      </th>
 		    </tr>
@@ -55,9 +74,9 @@ margin-bottom:50px;
 		  <tbody class ="text-left">
 		    <tr>
 		      <th scope="row">체력</th>
-		      <td>100</td>
+		      <td><%=rs.getString("hp") %></td>
 		      <th>마나</th>
-		      <td>100</td>
+		      <td><%=rs.getString("mp") %></td>
 		    </tr>
 		    <tr>
 		      <th scope="row">경험치</th>

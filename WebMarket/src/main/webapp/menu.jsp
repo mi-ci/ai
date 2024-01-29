@@ -13,13 +13,31 @@
 	 		<div class = "navbar-header">
 	 			<a class = "navbar-brand" href="/WebMarket/welcome.jsp">Home</a>
 	 			<a class = "navbar-brand" href="${pageContext.request.contextPath}/Products.jsp">상품목록</a>
+	 			<a class = "navbar-brand" href="${pageContext.request.contextPath}/board/boards.jsp">게시판</a>
 	 			<a class = "navbar-brand" href="${pageContext.request.contextPath}/addProduct.jsp">상품등록</a>
 	 			<a class = "navbar-brand" href="${pageContext.request.contextPath}/deleteProject2.jsp">상품삭제</a>
-	 			<a class = "navbar-brand" href="${pageContext.request.contextPath}/cart.jsp">장바구니</a>
 	 		</div>
 	 		<div class = "navbar-header">
 	 			<a class = "navbar-brand" href="${pageContext.request.contextPath}/member/memberInfo.jsp">회원정보</a>
-	 			<a class = "navbar-brand" href="${pageContext.request.contextPath}/member/login.jsp">로그인</a>
+	 			<% 
+	 				String login = (String) session.getAttribute("id");
+	 				String name = (String) session.getAttribute("name");
+	 				String loginok = "로그인";
+	 				if(login!=null){
+	 					loginok=name+"님";
+	 			%>
+		 			<a class="text-white"><%=loginok %></a>
+		 			<a class = "navbar-brand" href="${pageContext.request.contextPath}/member/logout.jsp">로그아웃</a>
+		 			
+	 			<%
+	 				}
+	 				else{
+			 	%>
+		 			<a class = "navbar-brand" href="${pageContext.request.contextPath}/member/login.jsp"><%=loginok %></a>
+			 	<%		
+	 				}
+	 			%>
+	 			<a class = "navbar-brand" href="${pageContext.request.contextPath}/cart.jsp">장바구니</a>
 	 		</div>
 		</div>
 	</nav>
