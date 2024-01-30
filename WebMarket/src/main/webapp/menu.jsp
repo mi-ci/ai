@@ -13,7 +13,7 @@
 	 		<div class = "navbar-header">
 	 			<a class = "navbar-brand" href="/WebMarket/welcome.jsp">Home</a>
 	 			<a class = "navbar-brand" href="${pageContext.request.contextPath}/Products.jsp">상품목록</a>
-	 			<a class = "navbar-brand" href="${pageContext.request.contextPath}/board/boards.jsp">게시판</a>
+	 			<a class = "navbar-brand" href="${pageContext.request.contextPath}/board/boardList.jsp">게시판</a>
 	 			<a class = "navbar-brand" href="${pageContext.request.contextPath}/addProduct.jsp">상품등록</a>
 	 			<a class = "navbar-brand" href="${pageContext.request.contextPath}/deleteProject2.jsp">상품삭제</a>
 	 		</div>
