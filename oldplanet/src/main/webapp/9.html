@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      #result {
+        position: absolute;
+        width: 100%;
+        max-width: 870px;
+        cursor: pointer;
+        overflow-y: auto;
+        max-height: 400px;
+        box-sizing: border-box;
+        z-index: 1001;
+      }
+      .link-class:hover {
+        background-color: #f1f1f1;
+      }
+    </style>
+  </head>
+
+  <body>
+    <br />
+    <div class="container" style="width: 60%">
+      <div align="center">
+        <img src="maple.gif" width="100px" height="auto" />
+      </div>
+      <br />
+      <h2 class="text-center">메이플 데이터베이스</h2>
+      <!-- <h5 align="center">나는 어떤 사냥터를 가야 할지 잘 모릅니다.</h5>
+      <h5 align="center">
+        검색을 통해 곧바로 찾을 수 있는 정보를 애써 머리에 넣고 다니지는 않기
+        때문입니다.
+      </h5> -->
+      <!-- <h5 align="center">- 아인슈타인</h5> -->
+      <br />
+      <input
+        type="text"
+        name="search"
+        id="search"
+        placeholder="몬스터를 검색하세요"
+        class="form-control"
+        style="display: block; margin: 0 auto; width: 70%"
+        onkeyup="search(this);"
+      />
+      <!-- <ul class="list-group" id="result" style="width: 70%"></ul> -->
+      <div id="searchList"></div>
+      <h1 id="selected"></h1>
+      <br />
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ <script type="text/javascript">
+  function search(target) {
+    $.ajax({
+      type: "GET",
+      dataType: "JSON",
+      url: `1.json`,
+      // error: function (err) {
+      //   console.log(err);
+      // },
+      success: function (data) {
+        var checkWord = $("#search").val();
+        var searchList = $("#searchList");
+        console.log(checkWord);
+
+        searchList.empty();
+        data.forEach((i) => {
+          if (i["name"].includes(checkWord)) {
+            searchList.append(
+              `<span style="cursor: pointer;" onclick="select(this);"> ${i["name"]} </span> <br/>`
+            );
+          }
+        });
+        if (checkWord == "") {
+            searchList.empty();
+          }
+      },
+    });
+  }
+
+  function select(target) {
+    const selected = document.getElementById("selected");
+    // selected.innerText = target.innerText;
+    location.href = "mob.jsp?name=" + target.innerText;
+  }
+</script>
+    
+    
+    
+    
+  </body>
+</html>
+
+

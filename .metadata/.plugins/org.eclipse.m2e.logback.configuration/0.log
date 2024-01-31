@@ -1140,3 +1140,4 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:306)
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 common frames omitted
+2024-01-31 09:45:55,431 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
