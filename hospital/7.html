@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>title</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="panel-group" id="accParent" role="tablist">
+        <!-- 첫번째 아이템 -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab">
+            <a
+              role="button"
+              data-toggle="collapse"
+              data-parent="#accParent"
+              href="#accEx1"
+              aria-constrols="addEx1"
+            >
+              첫번째 예시) 여기를 클릭해 주세요.
+            </a>
+          </div>
+          <div id="accEx1" class="panel-collapse collapse in" role="tabpanel">
+            <div class="panel-body">href="#accEx1" 예시 입니다.</div>
+          </div>
+        </div>
+
+        <!-- 두번째 아이템 -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab">
+            <a
+              role="button"
+              data-toggle="collapse"
+              data-parent="#accParent"
+              data-target="#accEx2"
+              aria-constrols="addEx2"
+            >
+              두번째 예시) 여기를 클릭해 주세요.
+            </a>
+          </div>
+          <div id="accEx2" class="panel-collapse collapse" role="tabpanel">
+            <div class="panel-body">data-target="#accEx2" 예시입니다.</div>
+          </div>
+        </div>
+      </div>
+      <!-- id=accParent -->
+    </div>
+  </body>
+</html>

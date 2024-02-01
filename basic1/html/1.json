@@ -1,0 +1,1297 @@
+[
+  { "code": 100100, "name1": "snail.jpg", "name": "달팽이" },
+  { "code": 100101, "name1": "bluesnail.jpg", "name": "파란 달팽이" },
+  { "code": 120100, "name1": "�ㅽ룷��", "name": "Shroom" },
+  { "code": 130100, "name1": "�ㅽ���", "name": "Stump" },
+  { "code": 130101, "name1": "鍮④컙 �ы뙺��", "name": "Red Snail" },
+  { "code": 210100, "name1": "�щ씪��", "name": "Slime" },
+  { "code": 1110100, "name1": "珥덈줉踰꾩꽢", "name": "Green Mushroom" },
+  { "code": 1110101, "name1": "�ㅽ겕 �ㅽ���", "name": "Dark Stump" },
+  { "code": 1120100, "name1": "�ν넗�쇱뒪", "name": "Octopus" },
+  { "code": 1130100, "name1": "�묒뒪����", "name": "Axe Stump" },
+  { "code": 1140100, "name1": "怨좎뒪����", "name": "Ghost Stump" },
+  { "code": 1210100, "name1": "�쇱�", "name": "Pig" },
+  { "code": 1210101, "name1": "由щ낯 �쇱�", "name": "Ribbon Pig" },
+  { "code": 1210102, "name1": "二쇳솴踰꾩꽢", "name": "Orange Mushroom" },
+  { "code": 1210103, "name1": "踰꾨툝留�", "name": "Bubbling" },
+  { "code": 2100100, "name1": "�� 紐⑤옒�좊겮", "name": "Desert Rabbit (F)" },
+  {
+    "code": 2100101,
+    "name1": "媛덉깋 紐⑤옒�좊겮",
+    "name": "Desert Rabbit (M)"
+  },
+  { "code": 2100102, "name1": "二쇰땲�� 移댄닾��", "name": "Jr. Cactus" },
+  { "code": 2100103, "name1": "移댄닾��", "name": "Cactus" },
+  { "code": 2100104, "name1": "濡쒖뻹 移댄닾��", "name": "Royal Cactus" },
+  { "code": 2100105, "name1": "踰⑤씪紐⑥븘", "name": "Bellamoa" },
+  { "code": 2100106, "name1": "洹�留덇컻 �꾨┫��", "name": "Ear Plug Plead" },
+  { "code": 2100107, "name1": "紐⑸룄由� �꾨┫��", "name": "Scarf Plead" },
+  { "code": 2100108, "name1": "誘몄슂罹먯툩", "name": "Meercat" },
+  { "code": 2110200, "name1": "肉붾쾭��", "name": "Horny Mushroom" },
+  { "code": 2110300, "name1": "紐⑤옒 �먮뜑吏�", "name": "Sand Rat" },
+  { "code": 2110301, "name1": "�ㅼ퐳�쇱뼵", "name": "Scorpion" },
+  { "code": 2130100, "name1": "�ㅽ겕 �묒뒪����", "name": "Dark Axe Stump" },
+  { "code": 2130103, "name1": "二쇰땲�� �ㅽ궎", "name": "Jr. Necki" },
+  { "code": 2220000, "name1": "留덈끂", "name": "Mano " },
+  { "code": 2220100, "name1": "�뚮�踰꾩꽢", "name": "Blue Mushroom" },
+  { "code": 2230100, "name1": "�대툝�꾩씠", "name": "Evil Eye" },
+  { "code": 2230101, "name1": "醫�鍮꾨쾭��", "name": "Zombie Mushroom" },
+  { "code": 2230102, "name1": "���쇰뱶蹂댁뼱", "name": "Wild Boar" },
+  { "code": 2230103, "name1": "�몃┃�ㅽ꽣", "name": "Trixter" },
+  { "code": 2230104, "name1": "洹몃┛ �몃┃�ㅽ꽣", "name": "Green Trixter" },
+  { "code": 2230105, "name1": "�⑦겢", "name": "Seacle" },
+  { "code": 2230106, "name1": "�⑥퐫", "name": "Cico" },
+  { "code": 2230107, "name1": "�щ씪��", "name": "Krappy" },
+  { "code": 2230108, "name1": "��遺�", "name": "Pinboom" },
+  { "code": 2230109, "name1": "踰꾨툝�쇱돩", "name": "Bubble Fish" },
+  { "code": 2230110, "name1": "�곕뱶 留덉뒪��", "name": "Wooden Mask" },
+  { "code": 2230111, "name1": "�ㅽ넠 留덉뒪��", "name": "Rocky Mask" },
+  { "code": 2230200, "name1": "�뚮씪�� �쇱돩", "name": "Flower Fish" },
+  { "code": 2300100, "name1": "�ㅽ떚吏�", "name": "Stirge" },
+  { "code": 3000000, "name1": "�ㅽ넠蹂�", "name": "Sentinel" },
+  { "code": 3000001, "name1": "�섏뼱由�", "name": "Fairy 1" },
+  { "code": 3000002, "name1": "�섏뼱由�", "name": "Fairy 2" },
+  { "code": 3000003, "name1": "�섏뼱由�", "name": "Fairy 3" },
+  { "code": 3000004, "name1": "�섏뼱由�", "name": "Fairy 4" },
+  { "code": 3000005, "name1": "釉뚮씪�댄뀒��", "name": "Brown Teddy" },
+  { "code": 3000006, "name1": "�щ┰", "name": "Krip" },
+  { "code": 3100101, "name1": "紐⑤옒�쒖웳��", "name": "Sand Dwarf " },
+  { "code": 3100102, "name1": "�ㅼ슂", "name": "Kiyo" },
+  { "code": 3110100, "name1": "由ш쾶�댄꽣", "name": "Ligator" },
+  { "code": 3110101, "name1": "�묓겕�뚮땲", "name": "Pink Teddy" },
+  { "code": 3110102, "name1": "�쇱툩", "name": "Ratz" },
+  { "code": 3110300, "name1": "�먮툕�щ씪��", "name": "Cube Slime" },
+  {
+    "code": 3110301,
+    "name1": "遺됱� 紐⑤옒�쒖웳��",
+    "name": "Dark Sand Dwarf "
+  },
+  { "code": 3110302, "name1": "猷⑤え", "name": "Rumo" },
+  { "code": 3110303, "name1": "�몃━�� 猷⑤え", "name": "Triple Rumo" },
+  { "code": 3210100, "name1": "�뚯씠�대낫��", "name": "Fire Boar" },
+  { "code": 3210200, "name1": "二쇰땲�� �먮━��", "name": "Jr. Cellion" },
+  { "code": 3210201, "name1": "二쇰땲�� �쇱씠�ㅻ꼫", "name": "Jr. Lioner" },
+  { "code": 3210202, "name1": "二쇰땲�� 洹몃쪟��", "name": "Jr. Grupin" },
+  { "code": 3210203, "name1": "�щ뜑�뚮땲", "name": "Panda Teddy" },
+  { "code": 3210204, "name1": "�뷀궎 �⑤�由�", "name": "Roloduck" },
+  { "code": 3210205, "name1": "釉붾옓 �쇱툩", "name": "Black Ratz" },
+  { "code": 3210206, "name1": "移섑겕�몄씠踰�", "name": "Helly" },
+  { "code": 3210207, "name1": "�고궎", "name": "Tick" },
+  { "code": 3210208, "name1": "�덉툩", "name": "Retz" },
+  { "code": 3210450, "name1": "�ㅼ퓼踰� �섑럹", "name": "Scuba Pepe" },
+  { "code": 3210800, "name1": "猷⑦뙜", "name": "Lupin" },
+  { "code": 3220000, "name1": "�ㅽ���", "name": "Stumpy" },
+  { "code": 3220001, "name1": "�곗슦", "name": "Deo" },
+  { "code": 3230100, "name1": "而ㅼ쫰�꾩씠", "name": "Curse Eye" },
+  { "code": 3230101, "name1": "二쇰땲�� �덉씠��", "name": "Jr. Wraith" },
+  { "code": 3230102, "name1": "濡쒕옉", "name": "Lorang" },
+  { "code": 3230103, "name1": "�� 釉붾줉�쇱뒪", "name": "King Bloctopus" },
+  { "code": 3230104, "name1": "留덉뒪�ы뵾��", "name": "Mask Fish" },
+  { "code": 3230200, "name1": "�ㅽ��쎌떆", "name": "Star Pixie" },
+  { "code": 3230300, "name1": "二쇰땲�� 遺�湲�", "name": "Jr. Boogie 1" },
+  { "code": 3230301, "name1": "二쇰땲�� 遺�湲�", "name": "Jr. Boogie 2" },
+  { "code": 3230302, "name1": "釉붾줉�쇱뒪", "name": "Bloctopus" },
+  { "code": 3230303, "name1": "�묓겕�몄씠踰�", "name": "Propelly" },
+  { "code": 3230304, "name1": "�ㅼ뭅�댁꽭�대쾭", "name": "Planey" },
+  { "code": 3230305, "name1": "�λ궃媛� 紐⑸쭏", "name": "Toy Trojan" },
+  { "code": 3230306, "name1": "�щ줈�몄뒪", "name": "Chronos" },
+  { "code": 3230307, "name1": "泥섑봽", "name": "Chirppy" },
+  { "code": 3230308, "name1": "�몄쐞��", "name": "Tweeter" },
+  { "code": 3230400, "name1": "遺곸튂�� �좊겮", "name": "Drumming Bunny" },
+  { "code": 3230405, "name1": "二쇰땲�� ��", "name": "Jr. Seal" },
+  { "code": 4090000, "name1": "�꾩씠�� �멸렇(�덈뱺)", "name": "Iron Hook" },
+  { "code": 4110300, "name1": "�꾩씠�� 裕ㅽ뀒", "name": "Iron Mutae" },
+  {
+    "code": 4110301,
+    "name1": "媛뺥솕�� �꾩씠�� 裕ㅽ뀒",
+    "name": "Reinforced Iron Mutae"
+  },
+  { "code": 4110302, "name1": "誘몄뒪由� 裕ㅽ뀒", "name": "Mithril  mutae" },
+  { "code": 4130100, "name1": "移댄뙆 �쒕젅�댄겕", "name": "Copper Drake" },
+  { "code": 4130101, "name1": "�꾪떚", "name": "Tortie" },
+  { "code": 4130102, "name1": "�ㅽ겕 �ㅽ렂�곗뒪", "name": "Dark Nependeath" },
+  { "code": 4130103, "name1": "濡щ컮��", "name": "Rombot" },
+  { "code": 4130104, "name1": "�ㅽ겕 �ㅽ렂�곗뒪", "name": "Dark Nependeath" },
+  { "code": 4220000, "name1": "�몃Ⅴ��", "name": "Seruf" },
+  { "code": 4220001, "name1": "�몃Ⅴ��", "name": "Seruf" },
+  { "code": 4230100, "name1": "肄쒕뱶�꾩씠", "name": "Cold Eye" },
+  { "code": 4230101, "name1": "醫�鍮꾨（��", "name": "Zombie Lupin" },
+  { "code": 4230102, "name1": "�덉씠��", "name": "Wraith" },
+  { "code": 4230103, "name1": "�꾩씠�� �멸렇", "name": "Iron Hog" },
+  { "code": 4230104, "name1": "�대옉", "name": "Clang" },
+  { "code": 4230105, "name1": "�ㅽ렂�곗뒪", "name": "Nependeath" },
+  { "code": 4230106, "name1": "猷⑤굹�쎌떆", "name": "Lunar Pixie" },
+  { "code": 4230107, "name1": "�뚮씪�댁븘��", "name": "Flyeye" },
+  { "code": 4230108, "name1": "二쇰땲�� 遺덈룆", "name": "Jr. Cerebes" },
+  { "code": 4230109, "name1": "釉붾줉怨⑤젞", "name": "Block Golem" },
+  { "code": 4230110, "name1": "�� 釉붾줉怨⑤젞", "name": "King Block Golem" },
+  { "code": 4230111, "name1": "濡쒕낫�좎씠", "name": "Robo" },
+  { "code": 4230112, "name1": "留덉뒪�� 濡쒕낫", "name": "Master Robo" },
+  { "code": 4230113, "name1": "�깊넚", "name": "Tick-Tock" },
+  { "code": 4230114, "name1": "�뚮옒�� �щ줈�몄뒪", "name": "Platoon Chronos" },
+  { "code": 4230115, "name1": "留덉뒪�� �щ줈�몄뒪", "name": "Master Chronos" },
+  { "code": 4230116, "name1": "諛붾굹�� 洹몃젅��", "name": "Barnard Gray" },
+  { "code": 4230117, "name1": "�쒗� 洹몃젅��", "name": "Zeta Gray" },
+  { "code": 4230118, "name1": "�명듃�� 洹몃젅��", "name": "Ultra Gray" },
+  { "code": 4230119, "name1": "留덊떚��", "name": "Mateon" },
+  { "code": 4230120, "name1": "�뚮씪�곗븞", "name": "Plateon" },
+  { "code": 4230121, "name1": "硫붿뭅�곗븞", "name": "Mecateon" },
+  { "code": 4230122, "name1": "�ㅽ렂�곗뒪", "name": "Nependeath" },
+  { "code": 4230123, "name1": "�ㅽ뙆而�", "name": "Sparker" },
+  { "code": 4230124, "name1": "�꾨━��", "name": "Freezer" },
+  { "code": 4230125, "name1": "�ㅼ펷��", "name": "Skeledog" },
+  { "code": 4230126, "name1": "癒몃���", "name": "Mummydog" },
+  { "code": 4230200, "name1": "�명띁", "name": "Poopa" },
+  { "code": 4230201, "name1": "�ъ씠利� �명띁", "name": "Poison Poopa" },
+  { "code": 4230300, "name1": "�붾쵖", "name": "Moon Bunny" },
+  { "code": 4230400, "name1": "�꾩씠�몃낫��", "name": "Iron Boar" },
+  { "code": 4230500, "name1": "蹂꾨떎�뚯쪖", "name": "Chipmunk" },
+  { "code": 4230501, "name1": "�몄�", "name": "Red Porky" },
+  { "code": 4230502, "name1": "�묒�", "name": "Black Porky" },
+  { "code": 4230503, "name1": "泥�솕��", "name": "Blue Flower Serpent" },
+  { "code": 4230504, "name1": "�랁솕��", "name": "Red Flower Serpent" },
+  { "code": 4230505, "name1": "�⑥�", "name": "Jar" },
+  { "code": 4230506, "name1": "�쇰떒吏�", "name": "Ginseng Jar" },
+  { "code": 4230600, "name1": "紐⑤옒嫄곗씤", "name": "Desert Giant " },
+  { "code": 4240000, "name1": "�먮줈 洹몃젅��", "name": "Chief Gray" },
+  { "code": 4250000, "name1": "�대겮 �ы뙺��", "name": "Moss Snail" },
+  { "code": 4250001, "name1": "�몃━濡쒕뱶", "name": "Lord Tree" },
+  { "code": 5090000, "name1": "�곗씠��", "name": "Shade" },
+  { "code": 5090001, "name1": "�좎씤�명삎", "name": "Master Dummy" },
+  { "code": 5100000, "name1": "二쇰땲�� �덊떚", "name": "Jr. Yeti" },
+  {
+    "code": 5100001,
+    "name1": "二쇰땲�� �덊떚",
+    "name": "Transforming Jr. Yeti"
+  },
+  { "code": 5100002, "name1": "�뚯씠�대큵", "name": "Firebomb" },
+  { "code": 5100003, "name1": "�몃룎��", "name": "Hodori" },
+  { "code": 5100004, "name1": "�쇰���", "name": "Samiho" },
+  { "code": 5100005, "name1": "�멸구", "name": "Hogul" },
+  {
+    "code": 5110300,
+    "name1": "媛뺥솕�� 誘몄뒪由� 裕ㅽ뀒",
+    "name": "Reinforced Mithril Mutae "
+  },
+  { "code": 5110301, "name1": "濡쒖씠��", "name": "Roid " },
+  { "code": 5110302, "name1": "�ㅼ삤 �대줈�대뱶", "name": "Neo Huroid" },
+  { "code": 5120000, "name1": "�ъ뒪�고뵿��", "name": "Luster Pixie" },
+  { "code": 5120001, "name1": "�먮━��", "name": "Cellion" },
+  { "code": 5120002, "name1": "�쇱씠�ㅻ꼫", "name": "Lioner" },
+  { "code": 5120003, "name1": "洹몃쪟��", "name": "Grupin" },
+  { "code": 5120100, "name1": "癒몄떊 MT-09", "name": "MT-09" },
+  { "code": 5120500, "name1": "�ш낡", "name": "Grizzly" },
+  { "code": 5120501, "name1": "�꾨씪吏�", "name": "Bellflower Root" },
+  { "code": 5120502, "name1": "�숈� �꾨씪吏�", "name": "Sr. Bellflower Root" },
+  {
+    "code": 5120503,
+    "name1": "�덈젴�� 吏싳씤��",
+    "name": "Straw Target Dummy"
+  },
+  {
+    "code": 5120504,
+    "name1": "�덈젴�� �섎Т�명삎",
+    "name": "Wooden Target Dummy"
+  },
+  { "code": 5120505, "name1": "泥쒕줉", "name": "Reindeer" },
+  { "code": 5120506, "name1": "鍮꾧툒", "name": "The Book Ghost" },
+  { "code": 5130100, "name1": "�쒕젅�댄겕", "name": "Drake" },
+  { "code": 5130101, "name1": "�ㅽ넠怨⑤젞", "name": "Stone Golem" },
+  { "code": 5130102, "name1": "�ㅽ겕 �ㅽ넠怨⑤젞", "name": "Dark Stone Golem" },
+  { "code": 5130103, "name1": "�щ줈肄�", "name": "Croco" },
+  { "code": 5130104, "name1": "�ν꽣", "name": "Hector" },
+  { "code": 5130105, "name1": "�ㅽ겕 二쇰땲�� �덊떚", "name": "Dark Jr. Yeti" },
+  {
+    "code": 5130106,
+    "name1": "�ㅽ겕 二쇰땲�� �덊떚",
+    "name": "Transforming Dark Jr. Yeti"
+  },
+  { "code": 5130107, "name1": "荑⑤━ 醫�鍮�", "name": "Coolie Zombie" },
+  { "code": 5130108, "name1": "留덉씠�� 醫�鍮�", "name": "Minor Zombie" },
+  { "code": 5140000, "name1": "�붿씠�명뙺", "name": "White Fang" },
+  { "code": 5150000, "name1": "誘뱀뒪怨⑤젞", "name": "Mixed Golem" },
+  { "code": 5150001, "name1": "�ㅼ펷�덊넠 �щ퀝", "name": "Skeleton Soldier" },
+  { "code": 5200000, "name1": "二쇰땲�� �ㅽ넠蹂�", "name": "Jr. Sentinel" },
+  { "code": 5200001, "name1": "�꾩씠�� �ㅽ넠蹂�", "name": "Ice Sentinel" },
+  { "code": 5200002, "name1": "�뚯씠�� �ㅽ넠蹂�", "name": "Fire Sentinel" },
+  { "code": 5220000, "name1": "�뱁겕��", "name": "King Clang" },
+  { "code": 5220001, "name1": "�뱁겕��", "name": "King Clang" },
+  { "code": 5220002, "name1": "�뚯슦�ㅽ듃", "name": "Faust" },
+  { "code": 5220003, "name1": "���대㉧", "name": "Timer" },
+  { "code": 5250000, "name1": "�대겮踰꾩꽢", "name": "Moss Mushroom" },
+  { "code": 5250001, "name1": "�ㅽ넠踰꾧렇", "name": "Stone Bug" },
+  { "code": 5250002, "name1": "�먯떆硫㏓뤌吏�", "name": "Prehistoric Boar" },
+  { "code": 5300000, "name1": "由ы떚", "name": "Leatty" },
+  { "code": 5300001, "name1": "�ㅽ겕 由ы떚", "name": "Dark Leatty" },
+  { "code": 5300100, "name1": "硫쒕윭��", "name": "Malady" },
+  { "code": 5400000, "name1": "二쇰땲�� �섑럹", "name": "Jr. Pepe" },
+  { "code": 6090000, "name1": "由ъ튂", "name": "Riche" },
+  { "code": 6090001, "name1": "�ㅼ궛�� 留덈�", "name": "Snow Witch" },
+  { "code": 6090002, "name1": "���섎Т 臾댁궗", "name": "Bamboo Warrior" },
+  { "code": 6090003, "name1": "�좊퉬洹���", "name": "Scholar Ghost" },
+  { "code": 6090004, "name1": "猷⑤（紐�", "name": "Rurumo" },
+  { "code": 6110300, "name1": "�몃Ц", "name": "Homun" },
+  { "code": 6110301, "name1": "�ъ씠��", "name": "Saitie" },
+  { "code": 6130100, "name1": "�덈뱶 �쒕젅�댄겕", "name": "Red Drake" },
+  { "code": 6130101, "name1": "癒몄돩留�", "name": "Mushmom" },
+  { "code": 6130102, "name1": "�섑럹", "name": "Separated Pepe" },
+  { "code": 6130103, "name1": "�섑럹", "name": "Pepe" },
+  { "code": 6130104, "name1": "遺�湲�", "name": "Boogie" },
+  { "code": 6130200, "name1": "踰꾪뵾", "name": "Buffy" },
+  { "code": 6130201, "name1": "源⑤퉬", "name": "Blin" },
+  { "code": 6130202, "name1": "源⑤퉬", "name": "Morphed Blin" },
+  { "code": 6130203, "name1": "�먮떎怨�", "name": "Panda" },
+  { "code": 6130204, "name1": "寃뚮퉬��", "name": "Mr. Alli" },
+  { "code": 6130207, "name1": "�먭났", "name": "Peach Monkey" },
+  { "code": 6130208, "name1": "�щ（", "name": "Kru" },
+  { "code": 6130209, "name1": "臾섏꽑", "name": "Sage Cat" },
+  { "code": 6220000, "name1": "�ㅼ씪", "name": "Dyle" },
+  { "code": 6220001, "name1": "�쒕끂", "name": "Zeno" },
+  { "code": 6230100, "name1": "���쇰뱶移닿퀬", "name": "Wild Kargo" },
+  { "code": 6230101, "name1": "�몄퐫", "name": "Puco" },
+  { "code": 6230200, "name1": "�ㅽ겕 �섑럹", "name": "Dark Pepe" },
+  { "code": 6230201, "name1": "�ㅽ겕 �섑럹", "name": "Separated Dark Pepe" },
+  { "code": 6230300, "name1": "�덉씠吏� 踰꾪뵾", "name": "Lazy Buffy" },
+  { "code": 6230400, "name1": "�뚯슱�뚮땲", "name": "Soul Teddy" },
+  { "code": 6230401, "name1": "二쇰땲�� 猷⑥씠��", "name": "Jr. Lucida " },
+  {
+    "code": 6230500,
+    "name1": "留덉뒪�� �뚯슱�뚮땲",
+    "name": "Master Soul Teddy"
+  },
+  { "code": 6230600, "name1": "�꾩씠�� �쒕젅�댄겕", "name": "Ice Drake" },
+  { "code": 6230601, "name1": "�ㅽ겕 �쒕젅�댄겕", "name": "Dark Drake" },
+  { "code": 6230602, "name1": "�ㅼ펷�덊넠 �κ탳", "name": "Officer Skeleton" },
+  { "code": 6300000, "name1": "�덊떚", "name": "Yeti" },
+  { "code": 6300001, "name1": "�덊떚", "name": "Transformed Yeti" },
+  { "code": 6300002, "name1": "�덊떚", "name": "Separated Yeti" },
+  { "code": 6300003, "name1": "�쇱퐫", "name": "Punco" },
+  { "code": 6300004, "name1": "�뚯툩", "name": "Pachu" },
+  { "code": 6300005, "name1": "醫�鍮� 癒몄돩留�", "name": "Zombie Mushmom" },
+  { "code": 6300100, "name1": "踰꾪뫜", "name": "Buffoon" },
+  { "code": 6400000, "name1": "�ㅽ겕 �덊떚", "name": "Dark Yeti" },
+  { "code": 6400001, "name1": "�ㅽ겕 �덊떚", "name": "Transformed Dark Yeti" },
+  { "code": 6400002, "name1": "�ㅽ겕 �덊떚", "name": "Separated Dark Yeti" },
+  { "code": 6400003, "name1": "荑좎뒪肄�", "name": "Cuzco" },
+  { "code": 6400004, "name1": "�ㅽ뙆痢�", "name": "Opachu" },
+  { "code": 6400100, "name1": "�� 踰꾪뫜", "name": "Deep Buffoon" },
+  { "code": 7090000, "name1": "�먮룞寃쎈퉬�쒖뒪��", "name": "Security Camera" },
+  { "code": 7110300, "name1": "D.濡쒖씠", "name": "D. Roy" },
+  { "code": 7110301, "name1": "�몃Ц荑⑤（", "name": "Homunculus " },
+  { "code": 7130000, "name1": "猷⑥씠��", "name": "Lucida" },
+  { "code": 7130001, "name1": "遺덈룆", "name": "Cerebes" },
+  { "code": 7130002, "name1": "鍮꾪�", "name": "Beetle" },
+  { "code": 7130003, "name1": "���� 鍮꾪�", "name": "Dual Beetle" },
+  { "code": 7130004, "name1": "�뱁궎", "name": "Hankie" },
+  { "code": 7130010, "name1": "�곗뒪�뚮땲", "name": "Death Teddy" },
+  { "code": 7130020, "name1": "留앸뫁��", "name": "Goby" },
+  { "code": 7130100, "name1": "���곕줈留덉떆��", "name": "Tauromacis" },
+  { "code": 7130101, "name1": "���곕줈�ㅽ뵾��", "name": "Taurospear" },
+  { "code": 7130102, "name1": "�덊떚�� �섑럹", "name": "Yeti and Pepe" },
+  {
+    "code": 7130103,
+    "name1": "�ㅼ펷�덊넠 吏��섍�",
+    "name": "Commander Skeleton"
+  },
+  { "code": 7130104, "name1": "罹≫떞", "name": "Captain" },
+  { "code": 7130200, "name1": "�⑥뼱�명봽", "name": "Werewolf" },
+  {
+    "code": 7130300,
+    "name1": "留덉뒪�� �곗뒪�뚮땲",
+    "name": "Master Death Teddy"
+  },
+  { "code": 7130400, "name1": "�몃� �뺣룄源⑤퉬", "name": "Yellow King Goblin" },
+  { "code": 7130401, "name1": "�뚮� �뺣룄源⑤퉬", "name": "Blue King Goblin" },
+  {
+    "code": 7130402,
+    "name1": "珥덈줉 �뺣룄源⑤퉬",
+    "name": "Green King Goblin"
+  },
+  { "code": 7130500, "name1": "�덉돩", "name": "Rash" },
+  { "code": 7130501, "name1": "�ㅽ겕 �덉돩", "name": "Dark Rash" },
+  { "code": 7130600, "name1": "�몃툕", "name": "Hobi" },
+  { "code": 7130601, "name1": "���몃툕", "name": "Green Hobi" },
+  { "code": 7130602, "name1": "媛��쒕뜡遺�", "name": "Thornbush" },
+  { "code": 7140000, "name1": "�뚯씠��", "name": "Ghost Pirate" },
+  { "code": 7160000, "name1": "���� �뚯씠��", "name": "Dual Ghost Pirate" },
+  { "code": 7220000, "name1": "�쒕쪣", "name": "Tae Roon" },
+  { "code": 7220001, "name1": "援щ���", "name": "Old Fox" },
+  { "code": 7220002, "name1": "�붽눼�좎궗", "name": "King Sage Cat" },
+  { "code": 8090000, "name1": "�뷀듃�� 濡쒖씠", "name": "Deet and Roi" },
+  { "code": 8110300, "name1": "�몃Ц�ㅽ걯��", "name": "Homunscullo" },
+  { "code": 8130100, "name1": "二쇰땲�� 諛쒕줉", "name": "Jr. Balrog" },
+  { "code": 8140000, "name1": "�쇱씠移몄뒪濡쒗봽", "name": "Lycanthrope" },
+  { "code": 8140001, "name1": "�섑봽", "name": "Harp" },
+  { "code": 8140002, "name1": "釉붾윭�� �섑봽", "name": "Blood Harp" },
+  {
+    "code": 8140100,
+    "name1": "�ㅽ겕 �덊떚�� �섑럹",
+    "name": "Dark Yeti and Pepe"
+  },
+  { "code": 8140101, "name1": "寃��� 耳꾪��곕줈��", "name": "Black Kentaurus" },
+  { "code": 8140102, "name1": "遺됱� 耳꾪��곕줈��", "name": "Red Kentaurus" },
+  { "code": 8140103, "name1": "�몃Ⅸ 耳꾪��곕줈��", "name": "Blue Kentaurus" },
+  { "code": 8140110, "name1": "踰꾪겕", "name": "Birk" },
+  { "code": 8140111, "name1": "���� 踰꾪겕", "name": "Dual Birk" },
+  { "code": 8140200, "name1": "�대씪��", "name": "Klock" },
+  { "code": 8140300, "name1": "�ㅽ겕 �대씪��", "name": "Dark Klock" },
+  { "code": 8140500, "name1": "�뚯씠�대룆", "name": "Bain" },
+  {
+    "code": 8140555,
+    "name1": "��젹 留앸뫁�댁쭛",
+    "name": "Bombing Fish House "
+  },
+  { "code": 8140600, "name1": "蹂명뵾��", "name": "Bone Fish" },
+  {
+    "code": 8140700,
+    "name1": "釉붾（ �쒕옒怨ㅽ꽣��",
+    "name": "Blue Dragon Turtle"
+  },
+  {
+    "code": 8140701,
+    "name1": "�덈뱶 �쒕옒怨ㅽ꽣��",
+    "name": "Red Dragon Turtle"
+  },
+  { "code": 8140702, "name1": "由ъ뒪��", "name": "Rexton" },
+  { "code": 8140703, "name1": "釉뚮젅�ㅽ듉", "name": "Brexton" },
+  { "code": 8141000, "name1": "諛붿씠��", "name": "Spirit Viking" },
+  {
+    "code": 8141100,
+    "name1": "湲곌컙�� 諛붿씠��",
+    "name": "Gigantic Spirit Viking"
+  },
+  { "code": 8141300, "name1": "�ㅽ�대뱶", "name": "Squid" },
+  { "code": 8142000, "name1": "�ы��뚯튂", "name": "Phantom Watch" },
+  { "code": 8142100, "name1": "由ъ��ㅽ�대뱶", "name": "Risell Squid" },
+  { "code": 8143000, "name1": "G.�ы��뚯튂", "name": "Grim Phantom Watch" },
+  { "code": 8150000, "name1": "�щ┝�� 諛쒕줉", "name": "Crimson Balrog" },
+  { "code": 8150100, "name1": "�ㅽ겕", "name": "Shark" },
+  { "code": 8150101, "name1": "肄쒕뱶�ㅽ겕", "name": "Cold Shark" },
+  { "code": 8150200, "name1": "洹몃┛肄붾땲��", "name": "Green Cornian" },
+  { "code": 8150201, "name1": "�ㅽ겕肄붾땲��", "name": "Dark Cornian" },
+  { "code": 8150300, "name1": "�덈뱶 ���대쾲", "name": "Red Wyvern" },
+  { "code": 8150301, "name1": "釉붾（ ���대쾲", "name": "Blue Wyvern" },
+  { "code": 8150302, "name1": "�ㅽ겕 ���대쾲", "name": "Dark Wyvern" },
+  { "code": 8160000, "name1": "寃뚯씠�명궎��", "name": "Gatekeeper" },
+  { "code": 8170000, "name1": "���섑넗��", "name": "Thanatos" },
+  { "code": 8180000, "name1": "留덈눦", "name": "Manon" },
+  { "code": 8180001, "name1": "洹몃━��", "name": "Griffey" },
+  { "code": 8190000, "name1": "�댄듃二쇰땲��", "name": "Jr. Newtie" },
+  { "code": 8190001, "name1": "�댄듃二쇰땲��", "name": "Jr. Newtie" },
+  { "code": 8190002, "name1": "�ㅼ뒪�멸낏��", "name": "Nest Golem" },
+  { "code": 8190003, "name1": "�ㅼ펷�덇낀", "name": "Skelegon" },
+  { "code": 8190004, "name1": "�ㅼ펷濡쒖뒪", "name": "Skelosaurus" },
+  { "code": 8190005, "name1": "�ㅼ뒪�멸낏��", "name": "Nest Golem" },
+  { "code": 8220000, "name1": "�섎━��", "name": "Elliza" },
+  { "code": 8220001, "name1": "�ㅻ끂�곕㎤", "name": "Snowman" },
+  { "code": 8220002, "name1": "�ㅻ찓��", "name": "Kimera" },
+  { "code": 8220003, "name1": "�덈퉬�꾪깂", "name": "Leviathan" },
+  { "code": 8500000, "name1": "�쒓컙�� 援�", "name": "Time Sphere" },
+  {
+    "code": 8500001,
+    "name1": "�뚰��쇳닾�ㅼ쓽 �쒓퀎",
+    "name": "Papulatus Clock"
+  },
+  { "code": 8500002, "name1": "�뚰��쇳닾��", "name": "Papulatus" },
+  { "code": 8500003, "name1": "濡쒖슦 �ㅽ겕�ㅽ�", "name": "High Darkstar" },
+  { "code": 8500004, "name1": "�섏씠 �ㅽ겕�ㅽ�", "name": "Low Darkstar" },
+  { "code": 8510000, "name1": "�쇱븘�꾩뒪", "name": "Pianus" },
+  { "code": 8510100, "name1": "釉붾윭�쒕텗", "name": "Bloody Boom" },
+  { "code": 8520000, "name1": "�쇱븘�꾩뒪", "name": "Pianus" },
+  { "code": 8800000, "name1": "�먯염", "name": "Zakum1" },
+  { "code": 8800001, "name1": "�먯염", "name": "Zakum2" },
+  { "code": 8800002, "name1": "�먯염", "name": "Zakum3" },
+  { "code": 8800003, "name1": "�먯염��1", "name": "Zakum's Arm 1" },
+  { "code": 8800004, "name1": "�먯염��2", "name": "Zakum's Arm 2" },
+  { "code": 8800005, "name1": "�먯염��3", "name": "Zakum's Arm 3" },
+  { "code": 8800006, "name1": "�먯염��4", "name": "Zakum's Arm 4" },
+  { "code": 8800007, "name1": "�먯염��5", "name": "Zakum's Arm 5" },
+  { "code": 8800008, "name1": "�먯염��6", "name": "Zakum's Arm 6" },
+  { "code": 8800009, "name1": "�먯염��7", "name": "Zakum's Arm 7" },
+  { "code": 8800010, "name1": "�먯염��8", "name": "Zakum's Arm 8" },
+  { "code": 8810019, "name1": "�덈뱶 ���대쾲", "name": "Red Wyvern" },
+  { "code": 8810020, "name1": "釉붾（ ���대쾲", "name": "Blue Wyvern" },
+  { "code": 8810021, "name1": "�ㅽ겕 ���대쾲", "name": "Dark Wyvern" },
+  { "code": 8810022, "name1": "洹몃┛ 肄붾땲��", "name": "Green Cornian" },
+  { "code": 8810023, "name1": "�ㅽ겕 肄붾땲��", "name": "Dark Cornian" },
+  { "code": 9000001, "name1": "醫�鍮꾨（��", "name": "Curse Eye 2" },
+  { "code": 9000100, "name1": "�ㅼ펷��", "name": "Fire Boar 2" },
+  { "code": 9000101, "name1": "猷⑦뙜", "name": "Lupin 2" },
+  { "code": 9000200, "name1": "�대툝�꾩씠", "name": "Evil Eye 2" },
+  { "code": 9000201, "name1": "�ㅽ넠怨⑤젞", "name": "Zombie Mushroom 2" },
+  { "code": 9000300, "name1": "�れ�愿대Ъ", "name": "Cold Eye 2" },
+  { "code": 9000301, "name1": "�뚮� 踰꾩꽢", "name": "Blue Mushroom 2" },
+  {
+    "code": 9001000,
+    "name1": "二쇰㉨�닿퀬 �쇱뼱�쒖쓽 遺꾩떊",
+    "name": "Dances with Balrog's Clone"
+  },
+  {
+    "code": 9001001,
+    "name1": "�섏씤利덉쓽 遺꾩떊",
+    "name": "Grendel the Really Old's Clone"
+  },
+  {
+    "code": 9001002,
+    "name1": "�щ젅�섏쓽 遺꾩떊",
+    "name": "Athena Pierce's Clone"
+  },
+  {
+    "code": 9001003,
+    "name1": "�ㅽ겕濡쒕뱶�� 遺꾩떊",
+    "name": "Dark Lord's Clone"
+  },
+  { "code": 9001004, "name1": "移댁씠由곗쓽 遺꾩떊", "name": "Shadow Kyrin" },
+  { "code": 9001005, "name1": "�뚯씠�쏆삦��", "name": "OctoPirate" },
+  { "code": 9001006, "name1": "�뚯씠�쏆삦��", "name": "OctoPirate" },
+  {
+    "code": 9001007,
+    "name1": "�섎젴�� �덉닔�꾨퉬",
+    "name": "Scarecrow for Training"
+  },
+  {
+    "code": 9001008,
+    "name1": "移댁씠由곗쓽 遺꾩떊�� 遺꾩떊",
+    "name": "Shadow Kyrin's Clone"
+  },
+  { "code": 9100000, "name1": "�덊띁 �щ씪��", "name": "Super Slime" },
+  {
+    "code": 9100001,
+    "name1": "�덊띁 二쇰땲�� �ㅽ궎",
+    "name": "Super Jr. Necki"
+  },
+  { "code": 9100002, "name1": "�덊띁 �ㅽ떚吏�", "name": "Super Stirge" },
+  {
+    "code": 9100003,
+    "name1": "�명듃�� 二쇰땲�� �ㅽ궎",
+    "name": "Ultra Jr. Necki 1"
+  },
+  {
+    "code": 9100004,
+    "name1": "�명듃�� 二쇰땲�� �ㅽ궎",
+    "name": "Ultra Jr. Necki 2"
+  },
+  { "code": 9100005, "name1": "�덊띁 �몃┃�ㅽ꽣", "name": "Super Trickster" },
+  {
+    "code": 9100006,
+    "name1": "�덊띁 洹몃┛ �몃┃�ㅽ꽣",
+    "name": "Super Green Trickster"
+  },
+  { "code": 9100007, "name1": "�덊띁 由щ낯�쇱�", "name": "Super Ribbon-Pig" },
+  {
+    "code": 9100008,
+    "name1": "�명듃�� 肄�-�� �ы뙺��",
+    "name": "Super Coke Snail 1"
+  },
+  {
+    "code": 9100009,
+    "name1": "�명듃�� 肄�-�� �ы뙺��",
+    "name": "Super Coke Snail 2"
+  },
+  { "code": 9100010, "name1": "�덊띁 寃��� ��", "name": "Mr. Black Sheep" },
+  { "code": 9100013, "name1": "�꾨뵖�� 遺꾩떊", "name": "Adin " },
+  { "code": 9200015, "name1": "釉뚮씪�댄뀒��", "name": "Brown Tanny" },
+  { "code": 9200016, "name1": "遺곸튂�� �좊겮", "name": "Drumming Bunny" },
+  { "code": 9200018, "name1": "二쇰땲�� �덊떚", "name": "Jr. Yetti" },
+  { "code": 9200020, "name1": "�덊떚�� �섑럹", "name": "Yetti & Pepe" },
+  { "code": 9200021, "name1": "�덊떚", "name": "Separated Yetti" },
+  { "code": 9200022, "name1": "�섑럹", "name": "Separated Pepe" },
+  { "code": 9300004, "name1": "誘몃�", "name": "Mimic" },
+  {
+    "code": 9300005,
+    "name1": "李⑥썝�� �쇱툩",
+    "name": "Ratz from Another Dimension"
+  },
+  {
+    "code": 9300006,
+    "name1": "李⑥썝�� 釉붾옓 �쇱툩",
+    "name": "Black Ratz from Another Dimension"
+  },
+  {
+    "code": 9300007,
+    "name1": "李⑥썝�� 釉붾줉�쇱뒪",
+    "name": "Bloctopus from Another Dimension"
+  },
+  {
+    "code": 9300008,
+    "name1": "李⑥썝�� �먮룄�곗븘��",
+    "name": "Shadow Eye from Another Dimension"
+  },
+  {
+    "code": 9300009,
+    "name1": "李⑥썝�� 釉붾줉怨⑤젞",
+    "name": "Block Golem from Another Dimension"
+  },
+  {
+    "code": 9300010,
+    "name1": "李⑥썝�� 濡щ컮��",
+    "name": "Rombad from Another Dimension"
+  },
+  { "code": 9300011, "name1": "�λ궃媛� 紐⑸쭏", "name": "Toy Trojan" },
+  { "code": 9300012, "name1": "�뚮━�ㅻⅤ", "name": "Alishar" },
+  {
+    "code": 9300013,
+    "name1": "李⑥썝�� �� 釉붾줉怨⑤젞",
+    "name": "King Block Golem from Another Dimension"
+  },
+  {
+    "code": 9300014,
+    "name1": "李⑥썝�� �ㅽ겕�꾩씠",
+    "name": "Dark Eye from Another Dimension"
+  },
+  { "code": 9300015, "name1": "�щ줈�몄뒪", "name": "Cronos" },
+  { "code": 9300016, "name1": "�뚮옒�� �щ줈�몄뒪", "name": "Platoon Cronos" },
+  { "code": 9300017, "name1": "留덉뒪�� �щ줈�몄뒪", "name": "Master Cronos" },
+  {
+    "code": 9300018,
+    "name1": "二쇰땲�� �ㅽ넠蹂�",
+    "name": "Tutorial Jr. Sentinel"
+  },
+  {
+    "code": 9300019,
+    "name1": "留덉뒪�� 癒몄뒳�ㅽ넠",
+    "name": "Master Muscle Stone"
+  },
+  { "code": 9300020, "name1": "癒몄뒳�ㅽ넠", "name": "Muscle Stone" },
+  {
+    "code": 9300021,
+    "name1": "�ㅽ겕 癒몄뒳�ㅽ넠",
+    "name": "Dark Muscle Stone"
+  },
+  { "code": 9300022, "name1": "釉붾옓 �섏씠��", "name": "Black Knight" },
+  { "code": 9300023, "name1": "誘몄뒪�� �섏씠��", "name": "Myst Knight" },
+  { "code": 9300024, "name1": "�쇳렖怨⑤젞", "name": "Puppet Golem" },
+  { "code": 9300025, "name1": "媛�怨좎씪", "name": "Gargoyle" },
+  { "code": 9300026, "name1": "二쇰땲�� 媛�怨좎씪", "name": "Jr. Gargoyle" },
+  { "code": 9300027, "name1": "�낅쭏 �щ씪��", "name": "Devil Slime" },
+  { "code": 9300028, "name1": "�먮젅怨좎뒪", "name": "Ergoth" },
+  { "code": 9300029, "name1": "�ъ옄�앹긽 A", "name": "Lion Statue A" },
+  { "code": 9300030, "name1": "�ъ옄�앹긽 B", "name": "Lion Statue B" },
+  { "code": 9300031, "name1": "湲곗궗�앹긽 A", "name": "Knight Statue A" },
+  { "code": 9300032, "name1": "湲곗궗�앹긽 B", "name": "Knight Statue B" },
+  { "code": 9300033, "name1": "二쇰땲�� 媛�怨좎씪", "name": "Jr. Gargoyle" },
+  { "code": 9300034, "name1": "誘몄뒪�� �섏씠��", "name": "Mist Knight" },
+  { "code": 9300035, "name1": "二쇰땲�� 媛�怨좎씪", "name": "Jr. Gargoyle" },
+  { "code": 9300036, "name1": "釉붾옓 �섏씠��", "name": "Black Knight" },
+  { "code": 9300037, "name1": "誘몄뒪�� �섏씠��", "name": "Mist Knight" },
+  { "code": 9300038, "name1": "怨좎뒪�명뵿��", "name": "Ghost Pixie" },
+  { "code": 9300039, "name1": "�뚰뙆�쎌떆", "name": "Papa Pixie" },
+  {
+    "code": 9300040,
+    "name1": "�ъ떊 �묒쓽 �먮━��",
+    "name": "Cellion in Tower of Goddess"
+  },
+  {
+    "code": 9300041,
+    "name1": "�ъ떊 �묒쓽 �먮━��",
+    "name": "Cellion in Tower of Goddess"
+  },
+  {
+    "code": 9300042,
+    "name1": "�ъ떊 �묒쓽 洹몃쪟��",
+    "name": "Grupin in Tower of Goddess"
+  },
+  {
+    "code": 9300043,
+    "name1": "�ъ떊 �묒쓽 �쇱씠�ㅻ꼫",
+    "name": "Lioner in Tower of Goddess"
+  },
+  {
+    "code": 9300044,
+    "name1": "�ъ떊 �묒쓽 猷⑥씠��",
+    "name": "Luinel in Tower of Goddess"
+  },
+  {
+    "code": 9300045,
+    "name1": "�ъ떊 �묒쓽 猷⑤굹�쎌떆",
+    "name": "Lunar Pixie in Tower of Goddess"
+  },
+  {
+    "code": 9300046,
+    "name1": "�ъ떊 �묒쓽 �ㅽ��쎌떆",
+    "name": "Star Pixie in Tower of Goddess"
+  },
+  {
+    "code": 9300047,
+    "name1": "�ъ떊 �묒쓽 �ъ뒪�고뵿��",
+    "name": "Luster Pixie in Tower of Goddess"
+  },
+  {
+    "code": 9300048,
+    "name1": "�ъ떊 �묒쓽 �ㅽ렂�곗뒪",
+    "name": "Nependeath in Tower of Goddess"
+  },
+  {
+    "code": 9300049,
+    "name1": "�ъ떊 �묒쓽 濡쒖뻹 �ㅽ렂�곗뒪",
+    "name": "Royal Nependeath in Tower of Goddess"
+  },
+  { "code": 9300050, "name1": "�뚮씪�� 遺�湲�", "name": "Flying Boogie" },
+  {
+    "code": 9300051,
+    "name1": "�ъ떊 �묒쓽 二쇰땲�� �먮━��",
+    "name": "Jr. Cellion in Tower of Goddess"
+  },
+  {
+    "code": 9300052,
+    "name1": "�ъ떊 �묒쓽 二쇰땲�� �쇱씠�ㅻ꼫",
+    "name": "Jr. Lioner in Tower of Goddess"
+  },
+  {
+    "code": 9300053,
+    "name1": "�ъ떊 �묒쓽 二쇰땲�� 洹몃쪟��",
+    "name": "Jr. Grupin in Tower of Goddess"
+  },
+  {
+    "code": 9300054,
+    "name1": "�ъ떊 �묒쓽 猷⑤굹�쎌떆(蹂댁뒪 �뚰솚��)",
+    "name": "Lunar Pixie in Tower of Goddess(Summon Boss)"
+  },
+  {
+    "code": 9300055,
+    "name1": "�ъ떊 �묒쓽 �ㅽ��쎌떆(蹂댁뒪 �뚰솚��)",
+    "name": "Star Pixie in Tower of Goddess(Summon Boss)"
+  },
+  {
+    "code": 9300056,
+    "name1": "�ъ떊 �묒쓽 �ъ뒪�고뵿��(蹂댁뒪 �뚰솚��)",
+    "name": "Luster Pixie in Tower of Goddess(Summon Boss)"
+  },
+  {
+    "code": 9300057,
+    "name1": "�ъ떊 �묒쓽 �먮━��",
+    "name": "Cellion in Tower of Goddess"
+  },
+  { "code": 9300060, "name1": "�꾩씠�� �멸렇", "name": "Iron Hog" },
+  { "code": 9300061, "name1": "�붾쵖", "name": "Moon Bunny" },
+  { "code": 9300062, "name1": "�뚮씪�댁븘��", "name": "Flyeye" },
+  { "code": 9300063, "name1": "�ㅽ떚吏�", "name": "Stirge" },
+  { "code": 9300064, "name1": "�꾧묠鍮꾨텋", "name": "Goblin Fire" },
+  {
+    "code": 9300065,
+    "name1": "�숆뎬 洹몃┛ 肄붾땲��1",
+    "name": "Green Cornian1 in Cave"
+  },
+  {
+    "code": 9300066,
+    "name1": "�숆뎬 洹몃┛ 肄붾땲��2",
+    "name": "Green Cornian 2 in Cave"
+  },
+  {
+    "code": 9300067,
+    "name1": "�숆뎬 �ㅽ겕 肄붾땲��1",
+    "name": "Dark Cornian 1 in Cave"
+  },
+  {
+    "code": 9300068,
+    "name1": "�숆뎬 �ㅽ겕 肄붾땲��2",
+    "name": "Dark Cornian 2 in Cave"
+  },
+  {
+    "code": 9300069,
+    "name1": "�숆뎬 �덈뱶 ���대쾲1",
+    "name": "Red Wyvern 1 in Cave"
+  },
+  {
+    "code": 9300070,
+    "name1": "�숆뎬 �덈뱶 ���대쾲2",
+    "name": "Red Wyvern 2 in Cave"
+  },
+  {
+    "code": 9300071,
+    "name1": "�숆뎬 釉붾（ ���대쾲1",
+    "name": "Blue Wyvern 1 in Cave"
+  },
+  {
+    "code": 9300072,
+    "name1": "�숆뎬 釉붾（ ���대쾲2",
+    "name": "Blue Wyvern 2 in Cave"
+  },
+  {
+    "code": 9300073,
+    "name1": "�숆뎬 �ㅽ겕 ���대쾲1",
+    "name": "Dark Wyvern 1 in Cave"
+  },
+  {
+    "code": 9300074,
+    "name1": "�숆뎬 �ㅽ겕 ���대쾲2",
+    "name": "Dark Wyvern 2 in Cave"
+  },
+  {
+    "code": 9300075,
+    "name1": "�숆뎬 �ㅼ펷�덇낀1",
+    "name": "Skelegon 1 in Cave"
+  },
+  {
+    "code": 9300076,
+    "name1": "�숆뎬 �ㅼ펷�덇낀2",
+    "name": "Skelegon 2 in Cave"
+  },
+  {
+    "code": 9300077,
+    "name1": "�숆뎬 T-�ㅼ펷�섍낀",
+    "name": "T-Skelegon in Cave"
+  },
+  {
+    "code": 9300078,
+    "name1": "�숆뎬 �댄듃二쇰땲��",
+    "name": "Jr. Newtie in Cave"
+  },
+  {
+    "code": 9300079,
+    "name1": "�숆뎬 �ㅼ뒪�멸낏��",
+    "name": "Nest Golem in Cave"
+  },
+  { "code": 9300080, "name1": "�щ（", "name": "Kru" },
+  { "code": 9300081, "name1": "�뚮씪�댁븘��", "name": "Flyeye" },
+  { "code": 9300082, "name1": "�ㅽ떚吏�", "name": "Stirge" },
+  { "code": 9300083, "name1": "�꾧묠鍮꾨텋", "name": "Goblin Fire" },
+  { "code": 9300084, "name1": "二쎌쓬�� 怨듯룷", "name": "Deathly Fear" },
+  {
+    "code": 9300085,
+    "name1": "�닿퀎�� 二쇰땲�� 諛쒕줉",
+    "name": "Jr. Balrog in Another World"
+  },
+  {
+    "code": 9300086,
+    "name1": "�띿꽦�� ���섑넗��",
+    "name": "The Elemental Thanatos"
+  },
+  {
+    "code": 9300087,
+    "name1": "�뚯쭊 ���곕줈�ㅽ뵾��",
+    "name": "The Charging Taurospear"
+  },
+  {
+    "code": 9300088,
+    "name1": "�ㅽ겕濡쒕뱶�� �쒖옄",
+    "name": "Dark Lord's Disciple"
+  },
+  { "code": 9300089, "name1": "�쇰땳��", "name": "Phoenix" },
+  { "code": 9300090, "name1": "�꾨━��", "name": "Freezer" },
+  {
+    "code": 9300091,
+    "name1": "�대몺�� 癒몄뒳�ㅽ넠",
+    "name": "Buff Rocky in the Dark"
+  },
+  {
+    "code": 9300092,
+    "name1": "�딇�吏� �좎쟾�� 二쇰땲�� 諛쒕줉",
+    "name": "Jr. Balrog in Forgotten Shrine"
+  },
+  { "code": 9300093, "name1": "���쇰윭��", "name": "Tylus" },
+  {
+    "code": 9300094,
+    "name1": "�⑹튂踰� �щ┝�� 諛쒕줉",
+    "name": "Crimson Balrog the Kidnapper"
+  },
+  {
+    "code": 9300095,
+    "name1": "�⑹튂踰� �쇱씠移몄뒪濡쒗봽",
+    "name": "Lycanthrope the Kidnapper"
+  },
+  { "code": 9300096, "name1": "寃��� 耳꾪��곕줈��", "name": "Black Kentaurus" },
+  {
+    "code": 9300097,
+    "name1": "�쇨렇�ъ쭊 李⑥썝�� 留앸뫁��",
+    "name": "Goby in Warped Dimension"
+  },
+  {
+    "code": 9300098,
+    "name1": "�쇨렇�ъ쭊 李⑥썝�� 蹂명뵾��",
+    "name": "Bone Fish in Warped Dimension"
+  },
+  {
+    "code": 9300099,
+    "name1": "�쇨렇�ъ쭊 李⑥썝�� �ㅽ겕",
+    "name": "Shark in Warped Dimension"
+  },
+  {
+    "code": 9300100,
+    "name1": "�띿꽦�� ���섑넗��",
+    "name": "The Elemental Thanatos"
+  },
+  {
+    "code": 9300101,
+    "name1": "湲몃뱾�� �� �덈뒗 硫㏓뤌吏�",
+    "name": "Tamable Hog"
+  },
+  { "code": 9300102, "name1": "�몄쐞�� 硫㏓뤌吏�", "name": "Watchhog" },
+  { "code": 9300103, "name1": "諛붾굹�� 洹몃젅��", "name": "Barnard Gray" },
+  { "code": 9300104, "name1": "�쒗� 洹몃젅��", "name": "Zeta Gray" },
+  { "code": 9300105, "name1": "�붾궃 �곕퉬議�", "name": "Angry Lord Pirate" },
+  {
+    "code": 9300106,
+    "name1": "遺꾨끂�� �곕퉬議�",
+    "name": "Enraged Lord Pirate"
+  },
+  {
+    "code": 9300107,
+    "name1": "�용낫�� �곕퉬議�",
+    "name": "Peeking Lord Pirate"
+  },
+  { "code": 9300108, "name1": "�곕퉬議댁쓽 �⑥�", "name": "Lord Pirate's Jar" },
+  {
+    "code": 9300109,
+    "name1": "�곕퉬議댁쓽 �쇰떒吏�",
+    "name": "Lord Pirate's Ginseng Jar"
+  },
+  {
+    "code": 9300110,
+    "name1": "�곕퉬議댁쓽 �꾨씪吏�",
+    "name": "Lord Pirate's Bellflower"
+  },
+  {
+    "code": 9300111,
+    "name1": "�곕퉬議댁쓽 �숈� �꾨씪吏� ",
+    "name": "Lord Pirate's Ancient Bellflower"
+  },
+  {
+    "code": 9300112,
+    "name1": "�곕퉬議댁쓽 100�� �� �꾨씪吏�",
+    "name": "Lord Pirate's 100yrOld Bellflower"
+  },
+  {
+    "code": 9300113,
+    "name1": "�곕퉬議댁쓽 100�� �� �숈� �꾨씪吏�",
+    "name": "Lord Pirate's 100yrOld Ancient Bellflower"
+  },
+  {
+    "code": 9300114,
+    "name1": "�곕퉬議댁쓽 �щ굹�� 寃뚮퉬��",
+    "name": "Lord Pirate's Enraged Mr. Alli"
+  },
+  {
+    "code": 9300115,
+    "name1": "�곕퉬議댁쓽 �щ굹�� �щ（",
+    "name": "Lord Pirate's Enraged Kru"
+  },
+  {
+    "code": 9300116,
+    "name1": "�곕퉬議댁쓽 �щ굹�� 罹≫떞",
+    "name": "Lord Pirate's Enraged Captain"
+  },
+  {
+    "code": 9300117,
+    "name1": "�곕퉬議댁쓽 �щ났 �щ（",
+    "name": "Lord Pirate's Devoted Kru"
+  },
+  {
+    "code": 9300118,
+    "name1": "�곕퉬議댁쓽 �щ났 罹≫떞",
+    "name": "Lord Pirate's Devoted Captain"
+  },
+  { "code": 9300119, "name1": "�곕퉬議�", "name": "Lord Pirate" },
+  {
+    "code": 9300120,
+    "name1": "�곕퉬議댁쓽 �� �щ굹�� 寃뚮퉬��",
+    "name": "Lord Pirate's Furious Mr. Alli"
+  },
+  {
+    "code": 9300121,
+    "name1": "�곕퉬議댁쓽 �� �щ굹�� �щ（ ",
+    "name": "Lord Pirate's Furious Kru"
+  },
+  {
+    "code": 9300122,
+    "name1": "�곕퉬議댁쓽 �� �щ굹�� 罹≫떞",
+    "name": "Lord Pirate's Furious Captain"
+  },
+  {
+    "code": 9300123,
+    "name1": "�곕퉬議댁쓽 寃뚮퉬��",
+    "name": "Lord Pirate's Mr. Alli"
+  },
+  { "code": 9300124, "name1": "�곕퉬議댁쓽 �щ（", "name": "Lord Pirate's Kru" },
+  {
+    "code": 9300125,
+    "name1": "�곕퉬議댁쓽 罹≫떞",
+    "name": "Lord Pirate's Captain"
+  },
+  {
+    "code": 9300126,
+    "name1": "�곕퉬議댁쓽 �щ굹�� �쇰떒吏�",
+    "name": "Lord Pirate's Enraged Ginseng Jar"
+  },
+  { "code": 9300127, "name1": "釉뚮씪�댄뀒��", "name": "Brown Teddy" },
+  { "code": 9300128, "name1": "釉붾줉�쇱뒪", "name": "Bloctopus " },
+  { "code": 9300129, "name1": "�덉툩", "name": "Ratz" },
+  { "code": 9300130, "name1": "�щ줈�몄뒪", "name": "Chronos " },
+  { "code": 9300131, "name1": "�λ궃媛� 紐⑸쭏", "name": "Toy Trojan" },
+  { "code": 9300132, "name1": "�깊넚", "name": "Tick-Tock" },
+  { "code": 9300133, "name1": "濡쒕낫�좎씠", "name": "Robo" },
+  { "code": 9300134, "name1": "�� 釉붾줉怨⑤젞", "name": "King Bloctopus" },
+  { "code": 9300135, "name1": "留덉뒪�� �щ줈�몄뒪", "name": "Master Chronos " },
+  { "code": 9300136, "name1": "濡щ컮��", "name": "Rombot" },
+  { "code": 9300137, "name1": "以꾨━��", "name": "Juliet" },
+  { "code": 9300138, "name1": "濡쒕���", "name": "Romeo" },
+  { "code": 9300139, "name1": "�꾨옉耳꾨줈�대뱶", "name": "Franken Lloyd" },
+  {
+    "code": 9300140,
+    "name1": "�붾궃 �꾨옉耳꾨줈�대뱶",
+    "name": "Angry Franken Lloyd"
+  },
+  {
+    "code": 9300141,
+    "name1": "�먯뇙�� �곌뎄�ㅼ쓽 �몃Ц",
+    "name": "Homun of Closed Laboratory"
+  },
+  {
+    "code": 9300142,
+    "name1": "�④꺼吏� �곌뎄�ㅼ쓽 �몃Ц荑⑤（",
+    "name": "Homunculu of hidden laboratory"
+  },
+  {
+    "code": 9300143,
+    "name1": "媛뺥솕�� �꾩씠�� 裕ㅽ뀒",
+    "name": "Reinforced Iron Mutae"
+  },
+  {
+    "code": 9300144,
+    "name1": "媛뺥솕�� 誘몄뒪由� 裕ㅽ뀒",
+    "name": "Reinforced Mithril Mutae"
+  },
+  { "code": 9300145, "name1": "�몃Ц", "name": "Homun" },
+  { "code": 9300146, "name1": "�ъ씠��", "name": "Cyti" },
+  { "code": 9300147, "name1": "�몃Ц荑⑤（", "name": "Homunculus" },
+  { "code": 9300148, "name1": "�ㅼ삤 �대줈�대뱶", "name": "Neo Huroid" },
+  { "code": 9300149, "name1": "濡쒖씠��", "name": "Roid" },
+  { "code": 9300150, "name1": "�ㅼ삤 �대줈�대뱶", "name": "Neo Huroid" },
+  { "code": 9300151, "name1": "�꾨옉耳꾨줈�대뱶", "name": "Franken Lloyd" },
+  {
+    "code": 9300152,
+    "name1": "�붾궃 �꾨옉耳꾨줈�대뱶",
+    "name": "Angry Franken Lloyd"
+  },
+  { "code": 9300153, "name1": "諛⑺빐臾� 裕ㅽ뀒", "name": "Obstacle Mutae" },
+  {
+    "code": 9300154,
+    "name1": "�ㅽ뿕�� �ㅼ삤 �대줈�대뱶",
+    "name": "Neo Huroid for Experiement"
+  },
+  {
+    "code": 9300156,
+    "name1": "寃��� 留덈쾿�ъ쓽 �섑븯",
+    "name": "Black Magician's Disciple"
+  },
+  { "code": 9300157, "name1": "�ㅼ퐳�쇱뼵", "name": "Scorpion" },
+  { "code": 9300158, "name1": "移댁씠由�", "name": "Kyrin" },
+  { "code": 9300159, "name1": "移댁씠由�", "name": "Inferno Kyrin" },
+  { "code": 9300160, "name1": "泥�솕��", "name": "Blue Flower Serpent" },
+  { "code": 9300161, "name1": "�랁솕��", "name": "Red Flower Serpent" },
+  { "code": 9300162, "name1": "�몃━", "name": "Willi" },
+  { "code": 9300163, "name1": "臾섏꽑", "name": "Sage Cat" },
+  { "code": 9300164, "name1": "鍮꾧툒", "name": "The Book Ghost" },
+  { "code": 9300165, "name1": "�먭났", "name": "Peach Monkey" },
+  { "code": 9300166, "name1": "��깂", "name": "Bomb" },
+  {
+    "code": 9300169,
+    "name1": "李⑥썝�� �쇱툩",
+    "name": "Ratz from Another Dimension"
+  },
+  {
+    "code": 9300170,
+    "name1": "李⑥썝�� 釉붾옓�쇱툩",
+    "name": "Black Ratz from Another Dimension"
+  },
+  {
+    "code": 9300171,
+    "name1": "李⑥썝�� 釉붾줉�쇱뒪",
+    "name": "Bloctopus from Another Dimension"
+  },
+  {
+    "code": 9300172,
+    "name1": "以묐룆�� �몃━濡쒕뱶",
+    "name": "Poisoned Lord Tree"
+  },
+  {
+    "code": 9300173,
+    "name1": "以묐룆�� �ㅽ넠踰꾧렇",
+    "name": "Poisoned Stone Bug"
+  },
+  { "code": 9300174, "name1": "�ъ씠利� �뚮씪��", "name": "Poisoned Spright" },
+  {
+    "code": 9300175,
+    "name1": "以묐룆�� �ㅽ봽�쇱씠��",
+    "name": "Poison Flower"
+  },
+  { "code": 9300176, "name1": "硫�姨≫븳 �ㅽ봽�쇱씠��", "name": "Poison Golem" },
+  {
+    "code": 9300177,
+    "name1": "�� 以묐룆�� �몃━濡쒕뱶",
+    "name": "Poison Golem Level 2"
+  },
+  {
+    "code": 9300178,
+    "name1": "�� 以묐룆�� �ㅽ넠踰꾧렇",
+    "name": "Poison Golem Level 3"
+  },
+  { "code": 9300179, "name1": "�� 以묐룆�� �ㅽ봽�쇱씠��", "name": "Spright" },
+  { "code": 9300180, "name1": "�ъ씠利� 怨⑤젞", "name": "Poison Tree" },
+  {
+    "code": 9300181,
+    "name1": "媛뺥솕�� �ъ씠利� 怨⑤젞",
+    "name": "More Poisoned Stone Bug"
+  },
+  {
+    "code": 9300182,
+    "name1": "珥덇컯�뷀삎 �ъ씠利� 怨⑤젞",
+    "name": "Deeply Poisoned Lord Tree"
+  },
+  {
+    "code": 9300183,
+    "name1": "蹂댁뒪 紐ъ뒪�� �댁튂 泥댄겕�� �щ챸 紐ъ뒪��",
+    "name": "Deeply Poisoned Stone Bug"
+  },
+  { "code": 9300184, "name1": "留덈끂", "name": "Deeply Poisoned Spright" },
+  { "code": 9300185, "name1": "�ㅽ���", "name": "Poison Flower2" },
+  { "code": 9300186, "name1": "�곗슦", "name": "Poison Flower3" },
+  {
+    "code": 9300187,
+    "name1": "�뱀뒳�쇱엫",
+    "name": "Poisoned Spright in the Deep Forest 1"
+  },
+  {
+    "code": 9300188,
+    "name1": "���뺤���",
+    "name": "Poisoned Spright in the Deep Forest 1"
+  },
+  {
+    "code": 9300189,
+    "name1": "�뚯슦�ㅽ듃",
+    "name": "Poisoned Spright in the Deep Forest 2"
+  },
+  {
+    "code": 9300190,
+    "name1": "�뱁겕��",
+    "name": "Poisoned Spright in the Deep Forest 2"
+  },
+  {
+    "code": 9300192,
+    "name1": "�뚮━�ㅻⅤ",
+    "name": "Poisoned Spright in the Deep Forest 3"
+  },
+  { "code": 9300193, "name1": "���대㉧", "name": "Poison Flower 4" },
+  { "code": 9300194, "name1": "�ㅼ씪", "name": "Poison Flower 5" },
+  { "code": 9400000, "name1": "源뚮쭏洹�", "name": "Crow" },
+  { "code": 9400001, "name1": "遺덈꼫援щ━", "name": "Fire Raccoon" },
+  { "code": 9400002, "name1": "援щ쫫�ъ슦", "name": "Cloud Fox" },
+  { "code": 9400003, "name1": "留앸졊", "name": "Nightghost" },
+  { "code": 9400004, "name1": "�� 援щ쫫�ъ슦", "name": "Big Cloud Fox" },
+  { "code": 9400011, "name1": "�쒕벑洹���", "name": "Paper Lantern Ghost" },
+  { "code": 9400012, "name1": "臾쇰룄源⑤퉬", "name": "Water Goblin" },
+  { "code": 9400013, "name1": "紐쎈”洹���", "name": "Dreamy Ghost" },
+  { "code": 9400014, "name1": "泥쒓뎄", "name": "Black Crow" },
+  { "code": 9400205, "name1": "釉붾（癒몄돩留�", "name": "Blue Mushmom" },
+  { "code": 9400513, "name1": "�⑤뵫罹붾뱾", "name": "Candle Mob(2nd) " },
+  { "code": 9409000, "name1": "�쒗넗由ъ뼹Mob1", "name": "Tutorial Leatty" },
+  {
+    "code": 9409001,
+    "name1": "�쒗넗由ъ뼹Mob2",
+    "name": "Tutorial Drumming Rabbit"
+  },
+  { "code": 9410000, "name1": "�ㅺ컻", "name": "Stray Dog" },
+  { "code": 9410001, "name1": "硫뗭웳�� �ㅺ컻", "name": "Stylish Stray Dog" },
+  { "code": 9410002, "name1": "�섏븙�� �ㅺ컻", "name": "Angry Stray Dog" },
+  { "code": 9410003, "name1": "愿묐� �먯댂��", "name": "Clown Monkey" },
+  { "code": 9410004, "name1": "��＜議� �먯댂��", "name": "Biker Monkey" },
+  { "code": 9410005, "name1": "�덈뱶 踰꾨툝��", "name": "Red Bubble Tea" },
+  { "code": 9410006, "name1": "�먮줈�� 踰꾨툝��", "name": "Yellow Bubble Tea" },
+  { "code": 9410007, "name1": "洹몃┛ 踰꾨툝��", "name": "Green Bubble Tea" },
+  {
+    "code": 9410008,
+    "name1": "�덊떚 �명삎�먰뙋湲�",
+    "name": "Yeti UFO Catcher"
+  },
+  { "code": 9410009, "name1": "�덊떚 �명삎", "name": "Yeti Doll" },
+  {
+    "code": 9410010,
+    "name1": "二쇰땲�댄럹�� �명삎�먰뙋湲�",
+    "name": "Jr. Pepe UFO Catcher"
+  },
+  { "code": 9410011, "name1": "二쇰땲�댄럹�� �명삎", "name": "Jr. Pepe Doll" },
+  { "code": 9410012, "name1": "�명삎�먰뙋湲�", "name": "UFO Catcher" },
+  {
+    "code": 9410013,
+    "name1": "�명삎戮묎린 湲곌퀎",
+    "name": "Doll Vending Machine"
+  },
+  { "code": 9410014, "name1": "�ъ옣留덉감", "name": "Snack Bar" },
+  { "code": 9410015, "name1": "�ъ옣留덉감", "name": "Snack Bar" },
+  { "code": 9420000, "name1": "�먭볼鍮�", "name": "Toad" },
+  { "code": 9420001, "name1": "媛쒓뎄由�", "name": "Frog" },
+  { "code": 9420002, "name1": "援щ쟻��", "name": "Python" },
+  { "code": 9420003, "name1": "鍮④컙 �꾨쭏諭�", "name": "Red Lizard" },
+  { "code": 9420004, "name1": "�몃� �꾨쭏諭�", "name": "Yellow Lizard" },
+  { "code": 9420005, "name1": "�� ��", "name": "White Rooster" },
+  { "code": 9500107, "name1": "遺곸튂�� �좊겮", "name": "Drumming Bunny" },
+  { "code": 9500108, "name1": "由ш쾶�댄꽣", "name": "Ligator" },
+  { "code": 9500109, "name1": "�쇱툩", "name": "Ratz" },
+  { "code": 9500110, "name1": "�ㅽ��쎌떆", "name": "Star Pixie" },
+  { "code": 9500112, "name1": "二쇰땲�� �섑럹", "name": "Jr. Pepe" },
+  { "code": 9500113, "name1": "�щ뜑�뚮땲", "name": "Panda Teddy" },
+  { "code": 9500114, "name1": "�� 釉붾줉�쇱뒪", "name": "King Blockpus" },
+  { "code": 9500115, "name1": "濡쒕옉", "name": "Lorang" },
+  { "code": 9500116, "name1": "醫�鍮꾨（��", "name": "Zombie Lupin" },
+  { "code": 9500117, "name1": "移섑겕�몄씠踰�", "name": "Helly" },
+  { "code": 9500118, "name1": "�몄쐞��", "name": "Tweeter" },
+  { "code": 9500119, "name1": "�λ궃媛� 紐⑸쭏", "name": "Toy Trojan" },
+  { "code": 9500120, "name1": "�� 釉붾줉怨⑤젞", "name": "King Block Golem" },
+  { "code": 9500122, "name1": "�먮줈 洹몃젅��", "name": "Chief Gray" },
+  { "code": 9500123, "name1": "誘뱀뒪怨⑤젞", "name": "Mixed Golem" },
+  { "code": 9500125, "name1": "�덈뱶 �쒕젅�댄겕", "name": "Red Drake" },
+  { "code": 9500126, "name1": "�꾩씠�� �쒕젅�댄겕", "name": "Ice Drake" },
+  {
+    "code": 9500127,
+    "name1": "留덉뒪�� �뚯슱�뚮땲",
+    "name": "Master Soul Teddy"
+  },
+  { "code": 9500128, "name1": "�ㅽ겕 �덊떚", "name": "Dark Yeti" },
+  { "code": 9500129, "name1": "���곕줈�ㅽ뵾��", "name": "Taurospear" },
+  { "code": 9500130, "name1": "�뚮� �뺣룄源⑤퉬", "name": "Blue King Goblin" },
+  { "code": 9500131, "name1": "猷⑥씠��", "name": "Luinel" },
+  { "code": 9500132, "name1": "�⑥뼱�명봽", "name": "Werewolf" },
+  { "code": 9500133, "name1": "�덊떚�� �섑럹", "name": "Yeti and Pepe" },
+  { "code": 9500134, "name1": "�쇱씠移몄뒪濡쒗봽", "name": "Lycanthrope" },
+  { "code": 9500135, "name1": "�곗뒪�뚮땲", "name": "Death Teddy" },
+  { "code": 9500136, "name1": "湲곌컙�� 諛붿씠��", "name": "Gigantic Viking" },
+  { "code": 9500137, "name1": "G.�ы��뚯튂", "name": "G. Phantom Watch" },
+  { "code": 9500138, "name1": "�뚯씠�� ��", "name": "Bain" },
+  { "code": 9500141, "name1": "�덊떚", "name": "Separated Yeti" },
+  { "code": 9500142, "name1": "�섑럹", "name": "Separated Pepe" },
+  { "code": 9500143, "name1": "肄�-�� �쇱�", "name": "Coke Pig" },
+  { "code": 9500144, "name1": "肄�-�� �ы뙺��", "name": "Coke Snail" },
+  { "code": 9500145, "name1": "肄�-�� ��", "name": "Coke Seal" },
+  { "code": 9500146, "name1": "�뚮젅�� ��", "name": "Play Seal" },
+  {
+    "code": 9500147,
+    "name1": "�덊떚�� 肄�-�ы���",
+    "name": "Yeti and Coketump"
+  },
+  { "code": 9500148, "name1": "�닿�猷� �고�", "name": "Igloo Turtle" },
+  { "code": 9500149, "name1": "肄�-�� 怨⑤젞", "name": "Coke Golem" },
+  { "code": 9500150, "name1": "�꾩씠�� 怨⑤젞", "name": "Ice Golem" },
+  { "code": 9500151, "name1": "肄�-�� �щ씪��", "name": "Coke Slime" },
+  { "code": 9500152, "name1": "肄�-�� 踰꾩꽢", "name": "Coke Mushroom" },
+  { "code": 9500153, "name1": "肄�-�ы���", "name": "Coketump" },
+  { "code": 9500154, "name1": "肄�-�ы��� �쇱씠��", "name": "Coketump Lite" },
+  { "code": 9500155, "name1": "�쇰���", "name": "Three-Tailed Fox" },
+  { "code": 9500158, "name1": "�몃� �뺣룄源⑤퉬", "name": "Yellow King Goblin" },
+  { "code": 9500159, "name1": "�뚮� �뺣룄源⑤퉬", "name": "Blue King Goblin" },
+  {
+    "code": 9500160,
+    "name1": "珥덈줉 �뺣룄源⑤퉬",
+    "name": "Green King Goblin"
+  },
+  { "code": 9500161, "name1": "�뱁궎", "name": "Hankie" },
+  { "code": 9500162, "name1": "�섑봽", "name": "Harp" },
+  { "code": 9500163, "name1": "釉붾윭�� �섑봽", "name": "Blood Harp" },
+  { "code": 9500164, "name1": "寃��� 耳꾪��곕줈��", "name": "Black Kentaurus" },
+  { "code": 9500165, "name1": "遺됱� 耳꾪��곕줈��", "name": "Red Kentaurus" },
+  { "code": 9500166, "name1": "�몃Ⅸ 耳꾪��곕줈��", "name": "Blue Kentaurus" },
+  { "code": 9500167, "name1": "�⑷툑�쇱�", "name": "Golden Pig" },
+  { "code": 9500168, "name1": "�뱀뒳�쇱엫", "name": "King Slime" },
+  { "code": 9500170, "name1": "�뚰뙆 �쎌떆", "name": "Papa Pixie" },
+  { "code": 9500172, "name1": "�뚮━�ㅻⅤ", "name": "Alishar" },
+  { "code": 9500173, "name1": "洹몃━��", "name": "Griffey" },
+  { "code": 9500174, "name1": "留덈눦", "name": "Manon" },
+  { "code": 9500175, "name1": "�곕퉬議�", "name": "Angry Lord Pirate" },
+  { "code": 9500176, "name1": "釉붾（ 癒몄돩留�", "name": "Blue Mushmom" },
+  { "code": 9500177, "name1": "���뺤���", "name": "Giant Centipede" },
+  { "code": 9500178, "name1": "�ъ옣留덉감(蹂��좎쟾)", "name": "Snack Bar" },
+  {
+    "code": 9500179,
+    "name1": "�ъ옣留덉감(蹂��좏썑)",
+    "name": "Transformed Snack Bar"
+  },
+  { "code": 9500180, "name1": "�뚰��쇳닾�ㅼ쓽 �쒓퀎", "name": "Papulatus" },
+  { "code": 9500181, "name1": "�뚰��쇳닾��", "name": "Papulatus" },
+  {
+    "code": 9500182,
+    "name1": "�섎컯�뚯닔袁� �멸구",
+    "name": "Watermelon Guard Hogol "
+  },
+  {
+    "code": 9500183,
+    "name1": "�섎컯�뚯닔袁� �멸구",
+    "name": "Watermelon Guard Hogol "
+  },
+  { "code": 9500184, "name1": "�쇱씠�쒖썙��", "name": "Rideword P" },
+  { "code": 9500185, "name1": "�쇱씠�쒖썙�쏽", "name": "Rideword Y" },
+  { "code": 9500186, "name1": "�쇱씠�쒖썙�쏝", "name": "Rideword B" },
+  { "code": 9500187, "name1": "留앷�吏� �명삎", "name": "Busted Doll" },
+  { "code": 9500188, "name1": "遺��쒖쭊 �명삎", "name": "Destroyed Doll" },
+  { "code": 9500189, "name1": "�좊Ъ�곸옄", "name": "Gift Box" },
+  { "code": 9500190, "name1": "�먯뿉濡� �명삎", "name": "Toy Clown" },
+  { "code": 9500191, "name1": "怨좎뒪��", "name": "Green Phantom" },
+  { "code": 9500192, "name1": "�몃컯湲곗궗", "name": "Pumpkin Knight" },
+  { "code": 9500193, "name1": "�뚯씠�� �ㅽ떚��", "name": "Fire Steed" },
+  { "code": 9500194, "name1": "嫄곗슱 �좊졊", "name": "Mirror Ghost" },
+  { "code": 9500195, "name1": "��삤�쒗꽩", "name": "Jack-o-Lantern" },
+  { "code": 9500196, "name1": "�좊졊", "name": "Ghost" },
+  { "code": 9500197, "name1": "�좊졊", "name": "Ghost" },
+  { "code": 9500198, "name1": "�좊Ъ�곸옄", "name": "Gift Box" },
+  { "code": 9500199, "name1": "�먯뿉濡� �명삎", "name": "Toy Clown" },
+  { "code": 9500200, "name1": "Zoo 諛쒕줉", "name": "Zoo Balrog" },
+  { "code": 9500201, "name1": "Zoo �덊떚", "name": "Zoo Yeti" },
+  { "code": 9500202, "name1": "Zoo �붿씠�명뙺", "name": "Zoo White Fang" },
+  { "code": 9500203, "name1": "Zoo �쇱�", "name": "Zoo Pig" },
+  { "code": 9500204, "name1": "Zoo 由щ낯�쇱�", "name": "Zoo Ribbon Pig" },
+  { "code": 9500300, "name1": "留앷�吏� �명삎", "name": "Busted Doll" },
+  { "code": 9500301, "name1": "遺��쒖쭊 �명삎", "name": "Destroyed Doll" },
+  {
+    "code": 9500302,
+    "name1": "�몃컯諛�쓽 ��삤�쒗꽩",
+    "name": "Jack-o-Lantern at Pumpkin Farm"
+  },
+  { "code": 9500303, "name1": "嫄곗슱 �좊졊2", "name": "Mirror Ghost 2" },
+  { "code": 9500304, "name1": "嫄곗슱 �좊졊3", "name": "Mirror Ghost 3" },
+  { "code": 9500305, "name1": "��삤�쒗꽩", "name": "Jack-o-Lantern" },
+  { "code": 9500306, "name1": "留덈끂", "name": "Mano" },
+  { "code": 9500307, "name1": "�ㅽ���", "name": "Stumpy" },
+  { "code": 9500308, "name1": "�뚯슦�ㅽ듃", "name": "Faust" },
+  { "code": 9500309, "name1": "�뱁겕��", "name": "King Clang" },
+  { "code": 9500310, "name1": "���대㉧", "name": "Timer" },
+  { "code": 9500311, "name1": "�ㅼ씪", "name": "Dyle" },
+  { "code": 9500312, "name1": "援щ���", "name": "Nona-Tailed Fox" },
+  { "code": 9500313, "name1": "�쒕쪣", "name": "Tae Roon" },
+  { "code": 9500314, "name1": "�붽눼�좎궗", "name": "King Sage Cat" },
+  { "code": 9500315, "name1": "�섎━��", "name": "Elliza" },
+  { "code": 9500316, "name1": "�ㅻ끂�곕㎤", "name": "Snow Yeti" },
+  { "code": 9500317, "name1": "瑗щ쭏 �덉궗��", "name": "Kid Snowman" },
+  { "code": 9500318, "name1": "�붾궃 �덉궗��", "name": "Angry Snowman" },
+  { "code": 9500319, "name1": "嫄곕� �덉궗��", "name": "Giant Snowman" },
+  { "code": 9500320, "name1": "湲몄엪�� 猷⑤룎��", "name": "Lost Rudolph" },
+  { "code": 9500321, "name1": "�덉궗��", "name": "Snowman" },
+  { "code": 9500322, "name1": "瑗щ쭏 �덉궗��", "name": "Kid Snowman" },
+  {
+    "code": 9500323,
+    "name1": "移섏쫰 李쎄퀬 怨좎뼇��",
+    "name": "Kitty from Cheese Storage"
+  },
+  {
+    "code": 9500324,
+    "name1": "移섏쫰 李쎄퀬 怨좎뼇��",
+    "name": "Kitty from Cheese Storage"
+  },
+  { "code": 9500325, "name1": "�뱀뒳�쇱엫", "name": "King Slime" },
+  { "code": 9500328, "name1": "�щ┝�⑤컻濡�", "name": "Crimson Balrog" },
+  { "code": 9500329, "name1": "�뚰뙆�쎌떆", "name": "Papa Pixie" },
+  { "code": 9500330, "name1": "�뚮━�ㅻⅤ", "name": "Alishar" },
+  { "code": 9500331, "name1": "�뚰��쇳닾��", "name": "Papulatus" },
+  { "code": 9500332, "name1": "�쇱븘�꾩뒪", "name": "Pianus" },
+  { "code": 9500333, "name1": "�덈퉬�꾪깂", "name": "Leviathan" },
+  { "code": 9500334, "name1": "�곕퉬議�", "name": "Lord Pirate" },
+  { "code": 9500335, "name1": "�꾨옉耳� 濡쒖씠��", "name": "Frankenroid" },
+  { "code": 9500400, "name1": "諛�", "name": "Gourd" },
+  { "code": 9600001, "name1": "��", "name": "Rooster" },
+  { "code": 9600002, "name1": "�ㅻ━", "name": "Duck" },
+  { "code": 9600003, "name1": "��", "name": "Sheep" },
+  { "code": 9600004, "name1": "�쇱냼", "name": "Goat" },
+  { "code": 9600005, "name1": "�묒뿼��", "name": "Black Goat" },
+  { "code": 9600006, "name1": "��", "name": "Cow" },
+  { "code": 9600007, "name1": "�곴린��", "name": "Plow Ox" },
+  { "code": 9600008, "name1": "寃��� ��", "name": "Black Sheep" },
+  { "code": 9600009, "name1": "���뺤���", "name": "Giant Centipede" },
+  { "code": 9600010, "name1": "���뺤���", "name": "Giant Centipede" }
+]
