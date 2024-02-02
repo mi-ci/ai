@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <script type="text/javascript"
+    <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
@@ -30,23 +30,27 @@
       .link-class:hover {
         background-color: #f1f1f1;
       }
+      .container {
+        width: 60%;
+      }
+      @media (max-width: 600px) {
+        .container {
+          width: 100%;
+        }
+      }
     </style>
   </head>
 
   <body>
     <br />
-    <div class="container" style="width: 60%">
+    <br />
+    <br />
+    <div class="container">
       <div align="center">
         <img src="maple.gif" width="100px" height="auto" />
       </div>
       <br />
       <h2 class="text-center">메이플 데이터베이스</h2>
-      <!-- <h5 align="center">나는 어떤 사냥터를 가야 할지 잘 모릅니다.</h5>
-      <h5 align="center">
-        검색을 통해 곧바로 찾을 수 있는 정보를 애써 머리에 넣고 다니지는 않기
-        때문입니다.
-      </h5> -->
-      <!-- <h5 align="center">- 아인슈타인</h5> -->
       <br />
       <input
         type="text"
@@ -57,48 +61,40 @@
         style="display: block; margin: 0 auto; width: 70%"
         onkeyup="search(this);"
       />
+      <div style="display: block; margin: 0 auto; width: 70%">
+        <hr />
+      </div>
       <!-- <ul class="list-group" id="result" style="width: 70%"></ul> -->
-      <div id="searchList"></div>
-      <h1 id="selected"></h1>
-      <br />
+      <div
+        id="searchList"
+        style="display: block; margin: 0 auto; width: 70%"
+      ></div>
     </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
- <script type="text/javascript">
+<script type="text/javascript">
   function search(target) {
     $.ajax({
       type: "GET",
       dataType: "JSON",
-      url: `1.json`,
+      url: `4.json`,
       // error: function (err) {
       //   console.log(err);
       // },
       success: function (data) {
         var checkWord = $("#search").val();
         var searchList = $("#searchList");
-        console.log(checkWord);
+        // console.log(checkWord);
 
         searchList.empty();
         data.forEach((i) => {
-          if (i["name"].includes(checkWord)) {
+          if (i["nameko"].includes(checkWord)) {
             searchList.append(
-              `<span style="cursor: pointer;" onclick="select(this);"> ${i["name"]} </span> <br/>`
+              `<span style="cursor: pointer;" onclick="select(this);"><img src='${i["image"]}' height="40" width="40" class="img-thumbnail" /> ${i["nameko"]} </span> <br/>`
             );
           }
         });
         if (checkWord == "") {
-            searchList.empty();
-          }
+          searchList.empty();
+        }
       },
     });
   }
@@ -106,14 +102,9 @@
   function select(target) {
     const selected = document.getElementById("selected");
     // selected.innerText = target.innerText;
-    location.href = "mob.jsp?code=" + target.innerText;
+    location.href = "mob2.jsp?nameko=" + target.innerText;
   }
 </script>
-    
-    
-    
-    
   </body>
 </html>
-
 
