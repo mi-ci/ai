@@ -187,20 +187,22 @@ nn.new
 as.integer(nn.new)
 nn.new[7]='동'
 
-name = 
+a = 4
+b = 5
+c=a+b
+c
+x=6
+x=8
+x=10
+y=2*2+5*x+10
+y
 
-
-
-
-
-
-
-
-
-
-
-
-
+val.a = 10
+val.b=10
+sum.ab = val.a+val.b
+sum.ab
+vc.1 = c(95, 86, 47, 55, 68)
+vc.1
 
 
 
