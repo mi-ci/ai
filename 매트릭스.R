@@ -182,6 +182,3 @@ write.csv(iris.setosa, file.choose())
 
 
 
-
-
-
