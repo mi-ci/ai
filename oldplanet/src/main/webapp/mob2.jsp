@@ -65,12 +65,16 @@ font-size:20px;}
 	%>
 	<br>	
  	<div class= "container" align="center">
- 			<a href="10.html"><img src="maple.gif" style="width:15%"></a>
+ 			<a href="10.html"><img src="logo2.jpg" style="width:100px"></a>
+ 			
+		    <br />
+		    <br />
+		    <h2 class="text-center">몬스터 정보</h2>
 	</div>
 	<hr>
-	<div class="container" style="width:100%; table-layout: auto; width: 100%; table-layout: fixed;">
+	<div class="container" style="table-layout: auto; width: 500px; table-layout: fixed;">
 	<div>
-		<img src="breadcrumb.png"><a href="10.html" style="font-size:12px">홈</a><span style="font-size:12px"> » 몬스터</span>
+		<img src="breadcrumb.png"><a href="10.html" style="font-size:12px">홈</a><a href="moblist.jsp" style="font-size:12px"> » 몬스터</a>
 	</div>
 	<div style="background-color:rgb(54,104,133); margin-bottom:4px; margin-top:3px; height:40px;border-radius:12px">
 		<span style="color:white; line-height:40px; font-weight:1000;"> &emsp;<%=rs.getString("nameko") %> </span>
