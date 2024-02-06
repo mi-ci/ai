@@ -57,7 +57,7 @@ font-size:20px;}
 	PreparedStatement pstmt = con.prepareStatement(selectSql);
 	request.setCharacterEncoding("utf-8");
 	String nameko = request.getParameter("nameko");
-	nameko = nameko.substring(1);
+	//nameko = nameko.substring(1);
 	pstmt.setString(1, nameko);
 	ResultSet rs = pstmt.executeQuery();
 	rs.next();
