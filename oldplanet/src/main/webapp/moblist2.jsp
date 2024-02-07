@@ -31,29 +31,29 @@ color:black;
 	int row = rs.getRow();
 	rs.beforeFirst();
 	%>
-	<h2 class="text-center"><%=row %>개의 몬스터</h2>
+	<h2><%=row %>개의 몬스터</h2>
+	<%
+	while(rs.next()!=false){
+		if(rs.getInt("level")<21){
+		}
+	%>
+	<a href="mob3.jsp?nameko=<%=rs.getString("nameko")%>"><%=rs.getString("nameko")%> <%=rs.getInt("level") %></a>
+	<br>
+	<%
+	}
+	%>
 	
 	<div class="container">
 		<div class="accordion" id="accordionExample">
 		  <div class="accordion-item">
 		    <h2 class="accordion-header">
-		      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+		      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 		        레벨 1~20
 		      </button>
 		    </h2>
 		    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
 		      <div class="accordion-body">
-		      	<%
-				while(rs.next()!=false){
-					if(rs.getInt("level")<21){
-				%>
-					<a href="mob3.jsp?nameko=<%=rs.getString("nameko")%>"><%=rs.getString("nameko")%> <%=rs.getInt("level") %></a>
-					<br>
-				<%
-					}
-				}
-		    	rs.beforeFirst();
-				%>
+		        <a href="#">hi</a>
 		      </div>
 		    </div>
 		  </div>
@@ -65,39 +65,19 @@ color:black;
 		    </h2>
 		    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
 		      <div class="accordion-body">
-		      	<%
-				while(rs.next()!=false){
-					if(rs.getInt("level")>20 && rs.getInt("level")<41){
-				%>
-					<a href="mob3.jsp?nameko=<%=rs.getString("nameko")%>"><%=rs.getString("nameko")%> <%=rs.getInt("level") %></a>
-					<br>
-				<%
-					}
-				}
-		    	rs.beforeFirst();
-				%>		        
+		        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
 		      </div>
 		    </div>
 		  </div>
 		  <div class="accordion-item">
 		    <h2 class="accordion-header">
-		      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+		      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
 		        레벨 41~60
 		      </button>
 		    </h2>
 		    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
 		      <div class="accordion-body">
-		      	<%
-				while(rs.next()!=false){
-					if(rs.getInt("level")>40 && rs.getInt("level")<61){
-				%>
-					<a href="mob3.jsp?nameko=<%=rs.getString("nameko")%>"><%=rs.getString("nameko")%> <%=rs.getInt("level") %></a>
-					<br>
-				<%
-					}
-				}
-		    	rs.beforeFirst();
-				%>		        		        
+		        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
 		      </div>
 		    </div>
 		  </div>
