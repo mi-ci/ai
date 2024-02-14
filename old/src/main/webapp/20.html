@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>옛날메이플 데이터베이스</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="1.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="card">
+      <div align="center">
+        <a href="20.html"><img src="logo2.jpg" style="width:100px"></a>
+      </div>
+      <div align="center">
+        <h1 class="text-center">데이터베이스</h1>
+      </div>
+      <input
+        type="text"
+        name="search"
+        id="search"
+        placeholder="몬스터를 검색하세요"
+        class="form-control1"
+        style="display: block; margin: 0 auto; width: 50%"
+        onkeyup="search(this);"
+      />
+      <!-- <div style="display: block; margin: 0 auto; width: 50%">
+        <hr />
+      </div> -->
+      <!-- <ul class="list-group" id="result" style="width: 70%"></ul> -->
+      <div
+        id="searchList"
+        style="display: block; margin: 0 auto; width: 50%"
+      ></div>
+    </div>
+    <script>
+      function search(target) {
+        $.ajax({
+          type: "GET",
+          dataType: "JSON",
+          url: `4.json`,
+          // error: function (err) {
+          //   console.log(err);
+          // },
+          success: function (data) {
+            var checkWord = $("#search").val();
+            var searchList = $("#searchList");
+            // console.log(checkWord);
+
+            searchList.empty();
+            data.forEach((i) => {
+              if (i["nameko"].includes(checkWord)) {
+                searchList.append(
+                  `<span style="cursor: pointer;" onclick="select(this);"><img src='${i["image"]}' height="30" width="30" class="img-thumbnail" /> ${i["nameko"]} </span> <br/>`
+                );
+              }
+            });
+            if (checkWord == "") {
+              searchList.empty();
+            }
+          },
+        });
+      }
+
+      function select(target) {
+        const selected = document.getElementById("selected");
+        // selected.innerText = target.innerText;
+        location.href = "mob2.jsp?nameko=" + target.innerText;
+      }
+    </script>
+  </body>
+</html>
+
+
+    <script type="text/javascript">
+      function search(target) {
+        $.ajax({
+          type: "GET",
+          dataType: "JSON",
+          url: `4.json`,
+          // error: function (err) {
+          //   console.log(err);
+          // },
+          success: function (data) {
+            var checkWord = $("#search").val();
+            var searchList = $("#searchList");
+            // console.log(checkWord);
+
+            searchList.empty();
+            data.forEach((i) => {
+              if (i["nameko"].includes(checkWord)) {
+                searchList.append(
+                  `<span style="cursor: pointer;" onclick="select(this);"><img src='${i["image"]}' height="25" width="25" class="img-thumbnail" /> ${i["nameko"]} </span> <br/>`
+                );
+              }
+            });
+            if (checkWord == "") {
+              searchList.empty();
+            }
+          },
+        });
+      }
+
+      function select(target) {
+        const selected = document.getElementById("selected");
+        // selected.innerText = target.innerText;
+        location.href = "mob2copy.jsp?nameko=" + target.innerText;
+      }
+    </script>
