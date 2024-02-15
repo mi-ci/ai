@@ -1,45 +1,45 @@
 import requests
+import os
 from bs4 import BeautifulSoup
 import pymysql
-import mysql.connector
 con = pymysql.connect(host="localhost", user="root", password="1234", db="webmarket", charset="utf8")
 cur = con.cursor()
-sql= "select name from mob"
-cur.execute(sql)
 cur2 = con.cursor()
+sql= "select name,code from mob"
+cur.execute(sql)
 
 for i in cur:
-    no = int(i[0])
+    name = i[0]
+    no = int(i[1])
     url=f'https://maplestory.fandom.com/wiki/{name}'
     hdr = {'Accept-Language': 'ko_KR,en;q=0.8', 'User-Agent': ('Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Mobile Safari/537.36')}
     req = requests.get(url, headers=hdr)
     html = req.text
     soup = BeautifulSoup(html, 'html.parser')
-    name = soup.find('div','my-1').select_one(":nth-child(1)").text
-    level = soup.find('div','search-page-info-content-box-level').select_one(":nth-child(2)").text
-    level = level.replace(',','')
-    exp = soup.find('div','search-page-info-content-box-exp').select_one(":nth-child(2)").text
-    exp = exp.replace(',','')
-    hp = soup.find('div','search-page-info-content-box-hp').select_one(":nth-child(2)").text
-    hp = hp.replace(',','')
-    mp = soup.find('div','search-page-info-content-box-mp').select_one(":nth-child(2)").text
-    hp = mp.replace(',','')
-    itemslist=""
-    for i in soup.find_all('span','search-page-add-content-box-main-title'):
-        items = i.text
-        itemslist = itemslist + items + ", "
-    print(name)
-    itemslist.replace('\'','')
-    if itemslist=="":
-        itemslist = "업데이트예정  "
-    itemslist = itemslist[0:len(itemslist)-2]
-    sql2 = f"update mob set nameko='{name}', level={level}, exp={exp}, hp={hp}, mp={mp}, itemslist='{itemslist}' where code={no};"
+    # print(soup)
+    # break
+    imgurl=""
+    try:
+        # imgurl = soup.find("div", "mw-body-content mw-content-ltr").find('img')['src']
+        imgurl = soup.find("div", "mw-parser-output").find('img')['data-src']
+    except :
+        imgurl = "logo.png"
+    # print(imgurl)
+    imgurl = imgurl.split(".png")[0]+".png"
+    sql2 = f"update mob2 set image='{imgurl}' where code={no};"
     # val = (name,no)
     try :
         cur2.execute(sql2)
     except :
         pass
     con.commit()    
+
+    # curl 요청
+    # os.system("curl " + url + f" > {name}.jpg")
+
+
+
+    # val = (name,no)
     
 # print(soup.find('div','search-page-info-content-box-level'))
 
