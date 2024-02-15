@@ -25,11 +25,10 @@ mean(mt[,'mpg'])
 table(mt$gear)
 unique(mt$gear)
 
-
-
-
-
-
+source('C:/ai/study/r_study/myfunc.r')
+a = myfunction(100,50)
+a$rsum
+a$rmul
 
 
 
