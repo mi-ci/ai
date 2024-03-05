@@ -1,0 +1,14 @@
+## 파일 무시
+test.txt
+
+## 다음과 같은 확장자는 전체 무시
+*.text
+*.exe
+*.zip
+*.jpg
+*.png
+
+## 폴더 무시
+test/
+
+출처: https://kcmschool.com/194 [web sprit:티스토리]
