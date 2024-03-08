@@ -36,7 +36,7 @@ while True :
 background = np.zeros((1,65), np.float64)
 foreground = np.zeros((1,65), np.float64)
 
-cv.grabCut(img, mask, None, background, foreground, 5, cv.GC_INIT_WITH_MASK)
+cv.grabCut(img, mask, None, background, foreground, 1, cv.GC_INIT_WITH_MASK)
 mask2 = np.where((mask == cv.GC_BGD | mask == cv.GC_PR_BGD), 0,1).astype('uint8')
 grab = img*mask2[:,:,np.newaxis]
 cv.imshow('Grab Cut', grab)
