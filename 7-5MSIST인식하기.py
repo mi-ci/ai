@@ -23,10 +23,10 @@ dmlp.add(Dense(units = 512, activation='relu'))
 dmlp.add(Dense(units = 10, activation='softmax'))
 
 dmlp.compile(loss='categorical_crossentropy', optimizer=Adam(learning_rate = 0.0001), metrics=['accuracy'])
-hist = dmlp.fit(x_train, y_train, batch_size=128, epochs=50, validation_data=(x_test, y_test),verbose=2)
+hist = dmlp.fit(x_train, y_train, batch_size=128, epochs=25, validation_data=(x_test, y_test),verbose=2)
 res = dmlp.evaluate(x_test, y_test, verbose=0)
 print('정확률', res[1]*100)
-dmlp.save('dmlp_trained_h5')
+dmlp.save('dmlp_trained.h5')
 import matplotlib.pyplot as plt
 
 plt.plot(hist.history['accuracy'],'b--')
