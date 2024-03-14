@@ -1,7 +1,6 @@
-## 파일 무시
 test.txt
 
-## 다음과 같은 확장자는 전체 무시
+
 *.text
 *.txt
 *.exe
@@ -9,11 +8,8 @@ test.txt
 *.jpg
 *.png
 *.h5
-*.cgf
+*.cfg
 *.weights
 
-## 폴더 무시
-test/
-datasets/
 
-출처: https://kcmschool.com/194 [web sprit:티스토리]
+datasets/
