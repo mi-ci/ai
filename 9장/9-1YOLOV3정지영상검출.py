@@ -23,6 +23,7 @@ def yolo_detect(img, yolo_model, out_layers) :
     box,conf,id=[],[],[]      # 박스, 신뢰도, 부류 번호
     for output in output3:
         for vec85 in output:
+            # print('vec85==>',vec85)
             scores=vec85[5:]
             class_id=np.argmax(scores)
             confidence=scores[class_id]
@@ -44,7 +45,7 @@ model, out_layers, class_names = construct_yolo_v3()
 colors = np.random.uniform(0,255,size=(len(class_names),3))
 print('colors==>', colors)
 
-img = cv.imread('girl_laughing.jpg')
+img = cv.imread('baseball.jpg')
 if img is None : 
     sys.exit('파일이 없습니다')
 
