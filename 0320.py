@@ -103,9 +103,7 @@ model.summary()
 plot_model(model)
 hid = model.layers[0]
 # hid = print(model.layers[0].name)
-print(model.get_layer('input_48').get_weights())
-
-
+print(model.get_layer('input_2').get_weights())
 
 
 
