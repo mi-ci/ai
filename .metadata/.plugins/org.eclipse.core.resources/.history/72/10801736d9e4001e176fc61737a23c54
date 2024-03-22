@@ -1,0 +1,17 @@
+package com.shop.entity;
+
+import com.shop.constant.ItemSellStatus;
+
+import lombok.Getter;
+
+@Getter
+public class item {
+	private Long id;
+	private String itemNm;
+	private int price;
+	private int stockNumber;
+	private String itemDetail;
+	private ItemSellStatus itemSellStatus;
+	private LocalDateTime regTime;
+	
+}

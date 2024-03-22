@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+</head>
+<body>
+   <p th:each="names, status : ${data}">장우진
+   	<p th:text="${names}">aaa</p>	
+   </p>
+</body>
+</html>

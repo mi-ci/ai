@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+	<head>
+		<meta charset="UTF-8">
+		<title>Title</title>
+		<th:block layout:fragment="script"></th:block>
+		<th:block layout:fragment="css"></th:block>
+	</head>
+	<div th:fragment="footer">
+		footer 영역입니다.
+	</div>
+</html>

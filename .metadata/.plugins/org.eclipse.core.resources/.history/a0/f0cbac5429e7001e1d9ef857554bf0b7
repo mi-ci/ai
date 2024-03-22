@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<tr th:each="i, status:${data}">
+		<td th:text="${i.name}"></td>
+		<td th:text="${i.phone}"></td>
+		<td th:text="${i.hobby}"></td>
+		
+	</tr>
+	
+   <span th:each="i, status:${data}">
+   	<p th:text=${i}></p>
+   </span>
+</body>
+</html>
