@@ -1,0 +1,22 @@
+package com.shop.entity;
+
+import java.time.LocalDateTime;
+
+import com.shop.constant.ItemSellStatus;
+
+import lombok.Getter;
+
+@Getter
+public class Item {
+  
+	private Long id;
+	private String itemNm;
+	private int price;
+	private int stockNumber;
+	private String itemDetail;
+	private ItemSellStatus itemSellStatus;
+	private LocalDateTime regTime;
+	private LocalDateTime updateTime;
+	
+	
+}
