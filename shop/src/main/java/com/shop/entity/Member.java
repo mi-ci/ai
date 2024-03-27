@@ -41,7 +41,13 @@ public class Member {
 		  member.setAddress( memberFormDto.getAddress() );
 		  String password = passwordEncoder.encode( memberFormDto.getPassword() );
 		  member.setPassword(password);
-		  member.setRole( Role.USER );
+		  if (memberFormDto.getAdminp().equals("123")) {
+			  member.setRole( Role.ADMIN );
+			  
+		  }
+		  else {
+			  member.setRole( Role.USER );			  
+		  }
 		  return member;
 
 	}
